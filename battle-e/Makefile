@@ -8,9 +8,6 @@ SERIES_2_TRAINERS = anthony chisa daikichi danpei fiennes fugen fukune harue hoy
 
 all: series_1 verify
 series_1: $(SERIES_1_TRAINERS:%=trainers/%-EN.mev) $(SERIES_1_BERRIES:%=berries/%-EN.mev) $(SERIES_1_NUMS:%=08-%-EN.raw)
-series_2: $(SERIES_2_TRAINERS:%=trainers/%-JP.mev) $(SERIES_2_NUMS:%=08-%-JP.raw)
-EN: $(SERIES_1_TRAINERS:%=trainers/%-EN.mev) $(SERIES_1_BERRIES:%=berries/%-EN.mev) $(SERIES_1_NUMS:%=08-%-EN.z80)
-JP: $(SERIES_1_TRAINERS:%=trainers/%-JP.mev) $(SERIES_1_NUMS:%=08-%-JP.raw) $(SERIES_2_TRAINERS:%=trainers/%-JP.mev) $(SERIES_2_NUMS:%=08-%-JP.raw)
 verify:
 	md5sum --check battle-e.md5
 
