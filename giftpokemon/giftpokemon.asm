@@ -16,7 +16,7 @@ PokemonStart:
 	PV SHINY_ADAMANT_MALE
 	OT_ID 00000, 00000
 	Text_EN "BELDUM"10
-	Language $0202	;Language $0201=JP $0202=EN $0203=FR $0204=IT $0205=DE $0206=KR $0607=ES $0601=EGG
+	Language $0202	;Language $0201=JP $0202=EN $0203=FR $0204=IT $0205=DE $0206=KR $0207=ES $0601=EGG
 	Text_EN "STEVEN"7
 	Markings 0 ;markings
 	dw 0 ;Checksum, will be computed later :)
