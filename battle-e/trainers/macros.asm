@@ -3,6 +3,7 @@ INCLUDE "../constants/abilities.asm"
 INCLUDE "../constants/easychat.asm"
 INCLUDE "../constants/items.asm"
 INCLUDE "../constants/moves.asm"
+INCLUDE "../constants/natures.asm"
 INCLUDE "../constants/pokemon.asm"
 INCLUDE "../constants/trainerclasses.asm"
 
@@ -33,6 +34,21 @@ Win_EN: MACRO
 	ENDM
 Loss_EN: MACRO
 	IF REGION == REGION_EN
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+Intro_JP: MACRO
+	IF REGION == REGION_JP
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+Win_JP: MACRO
+	IF REGION == REGION_JP
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+Loss_JP: MACRO
+	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
