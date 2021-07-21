@@ -39,7 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,20,31, 0
 	PV $00000016
-	Text_JP "TORKOAL"11
+	Text_EN "TORKOAL"11
 	Text_JP "コータス"11
 	Friendship 255
 
@@ -52,7 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,20,31, 0
 	PV $00000080
-	Text_JP "SWAMPERT"11
+	Text_EN "SWAMPERT"11
 	Text_JP "ラグラージ"11
 	Friendship 255
 

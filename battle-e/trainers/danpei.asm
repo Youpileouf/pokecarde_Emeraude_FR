@@ -26,7 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 1
 	PV $0000001C
-	Text_JP "LAIRON"11
+	Text_EN "LAIRON"11
 	Text_JP "コドラ"11
 	Friendship 255
 
@@ -39,7 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 30,31,14,15,15,14, 0
 	PV $000000E4
-	Text_JP "GRAVELER"11
+	Text_EN "GRAVELER"11
 	Text_JP "ゴローン"11
 	Friendship 255
 
@@ -52,7 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 0
 	PV $0000001C
-	Text_JP "SHELGON"11
+	Text_EN "SHELGON"11
 	Text_JP "コモルー"11
 	Friendship 255
 

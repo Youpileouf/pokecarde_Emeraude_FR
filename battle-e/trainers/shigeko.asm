@@ -39,7 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 1
 	PV $000000E0
-	Text_JP "SEEDOT"11
+	Text_EN "SEEDOT"11
 	Text_JP "タネボー"11
 	Friendship 255
 
@@ -52,7 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $00000013
-	Text_JP "PIKACHU"11
+	Text_EN "PIKACHU"11
 	Text_JP "ピカチュウ"11
 	Friendship 255
 

@@ -26,7 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,20,20,31,31,20, 0
 	PV $0000001D
-	Text_JP "RAICHU"11
+	Text_EN "RAICHU"11
 	Text_JP "ライチュウ"11
 	Friendship 255
 
@@ -39,7 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,31,20,20, 0
 	PV $00000080
-	Text_JP "MEDICHAM"11
+	Text_EN "MEDICHAM"11
 	Text_JP "チャーレム"11
 	Friendship 255
 
@@ -52,7 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,31,20,31,20,20, 0
 	PV $000000E2
-	Text_JP "BLAZIKEN"11
+	Text_EN "BLAZIKEN"11
 	Text_JP "バシャーモ"11
 	Friendship 255
 

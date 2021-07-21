@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "ダイキチ"8
 	OT_ID 00000, 00000
 
-	Intro_ $0a14, $1034, $020e, $2017, $242c, $100e
+	Intro_EN $0a14, $1034, $020e, $2017, $242c, $100e
 	Win_EN $0801, $0c00, $ffff, $2017, $0607, $100e
 	Loss_EN $0811, $0c00, $ffff, $1400, $0628, $1014
 

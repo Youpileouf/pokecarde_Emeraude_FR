@@ -26,7 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 1
 	PV $00000087
-	Text_JP "GIRAFARIG"11
+	Text_EN "GIRAFARIG"11
 	Text_JP "キリンリキ"11
 	Friendship 255
 
@@ -39,7 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,15,31, 0
 	PV $00000084
-	Text_JP "WOBBUFFET"11
+	Text_EN "WOBBUFFET"11
 	Text_JP "ソーナンス"11
 	Friendship 255
 
@@ -52,7 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,31,15,15, 0
 	PV $0000000F
-	Text_JP "TYPHLOSION"11
+	Text_EN "TYPHLOSION"11
 	Text_JP "バクフーン"11
 	Friendship 255
 

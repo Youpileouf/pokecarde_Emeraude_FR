@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "マサル"8
 	OT_ID 00000, 00000
 
-	Intro_JEN $0c11, $0c01, $ffff, $061e, $2808, $0c01
+	Intro_EN $0c11, $0c01, $ffff, $061e, $2808, $0c01
 	Win_EN $0c10, $ffff, $ffff, $0421, $250c, $0c01
 	Loss_EN $0e2c, $1002, $0c03, $061e, $062e, $0c03
 
