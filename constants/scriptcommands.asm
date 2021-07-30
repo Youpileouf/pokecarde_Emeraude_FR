@@ -116,6 +116,13 @@ checkflag: MACRO
 	db $2B
 	dw \1
 	ENDM
+playfanfare: MACRO
+	db $31
+	dw \1
+	ENDM
+waitfanfare: MACRO
+	db $32
+	ENDM
 getpartysize: MACRO
 	db $43
 	ENDM
