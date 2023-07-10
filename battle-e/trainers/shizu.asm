@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db COOLTRAINER_F
 	BT_Floor 19
-	Text_EN "SHIZU"8
+	Text_EN "KRISTEN"8
 	Text_JP "シズ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0c13, $0c04, $063e, $140c, $1642, $1602
-	Win_EN $1e21, $0432, $1034, $063e, $0e1f, $0e2a
-	Loss_EN $0c0c, $1234, $0c00, $063e, $062e, $1024
+	Intro_EN FUFUFU, _ELIP_EX, LOOK, AT, MY, MOVE	
+	Win_EN ANY, TYPE, OF, MOVE, WORKS, _EX	
+	Loss_EN HUH_, MY, ATTACK, DIDN_T, WORK, _QU
 
 	Intro_JP $0c13, $0c04, $063e, $140c, $1642, $1602
 	Win_JP $1e21, $0432, $1034, $063e, $0e1f, $0e2a

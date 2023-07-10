@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db PSYCHIC_F
 	BT_Floor 12
-	Text_EN "SATOE"8
+	Text_EN "PORTIA"8
 	Text_JP "サトエ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $26b6, $0e0c, $0e1d, $0e12, $1225, $103e
-	Win_EN $26b6, $061e, $1034, $0619, $1032, $0c00
-	Loss_EN $0408, $0408, $1610, $0637, $0827, $1018
+	Intro_EN I, GOT, THESE, POKEMON, WITH, POKEBLOCK	
+	Win_EN MY, POKEMON, NEED, MORE, POKEBLOCK, _EX	
+	Loss_EN I, AM, OUT, OF, POKEBLOCK, _ELIP
 
 	Intro_JP $26b6, $0e0c, $0e1d, $0e12, $1225, $103e
 	Win_JP $26b6, $061e, $1034, $0619, $1032, $0c00

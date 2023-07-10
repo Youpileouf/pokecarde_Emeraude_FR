@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db EXPERT_F
 	BT_Floor 0
-	Text_EN "KOTO"8
+	Text_EN "ELLE"8
 	Text_JP "コト"8
 	OT_ID 00000, 00000
 
-	Intro_EN $180f, $1034, $1a1c, $141c, $100f, $ffff
-	Win_EN $201e, $1433, $1034, $0c01, $ffff, $ffff
-	Loss_EN $0c0f, $0c04, $0e36, $180f, $100b, $0c04
+	Intro_EN I, LIKE, TO, TRAVEL, _AND, TRAIN
+	Win_EN YOU_VE, GOT, _A, WAY, TO, GO
+	Loss_EN HUMPH, _ELIP, I, NEED, TO, TRAIN
 
 	Intro_JP $180f, $1034, $1a1c, $141c, $100f, $ffff
 	Win_JP $201e, $1433, $1034, $0c01, $ffff, $ffff

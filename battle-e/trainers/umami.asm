@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db COOLTRAINER_F
 	BT_Floor 12
-	Text_EN "UMAMI"8
+	Text_EN "PHILLIPA"8
 	Text_JP "ウマミ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a48, $020e, $0e28, $0e14, $060a, $1044
-	Win_EN $0c04, $103c, $122d, $0628, $1014, $0c3d
-	Loss_EN $0a48, $0212, $0e1f, $060a, $0e24, $0c05
+	Intro_EN MY, POKEMON, WON_T, LOSE, TO, YOU	
+	Win_EN THAT, BATTLE, WASN_T, GOOD, ENOUGH, _EX	
+	Loss_EN I, SHOULD, NOT, HAVE, LOST, _ELIP_EX
 
 	Intro_JP $0a48, $020e, $0e28, $0e14, $060a, $1044
 	Win_JP $0c04, $103c, $122d, $0628, $1014, $0c3d

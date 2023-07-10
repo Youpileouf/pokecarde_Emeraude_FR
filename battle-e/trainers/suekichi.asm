@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BIRD_KEEPER
 	BT_Floor 0
-	Text_EN "SUEKI"8
+	Text_EN "HORACE"8
 	Text_JP "スエキチ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a3a, $161a, $063e, $0a1e, $1e1b, $1628
-	Win_EN $274c, $060e, $0e08, $0c33, $120a, $ffff
-	Loss_EN $274c, $060e, $0e0a, $122f, $0628, $1014
+	Intro_EN HOW, ABOUT, SOME, WATER, POKEMON, _EX_EX	
+	Win_EN DO, YOU, LIKE, MY, POKEMON, _QU	
+	Loss_EN EXCUSE_ME, _EX, MY, POKEMON, ARE, GREAT
 
 	Intro_JP $0a3a, $161a, $063e, $0a1e, $1e1b, $1628
 	Win_JP $274c, $060e, $0e08, $0c33, $120a, $ffff

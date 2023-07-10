@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db GUITARIST
 	BT_Floor 0
-	Text_EN "DAIKI"8
+	Text_EN "VENTURO"8
 	Text_JP "ダイキチ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a14, $1034, $020e, $2017, $242c, $100e
-	Win_EN $0801, $0c00, $ffff, $2017, $0607, $100e
-	Loss_EN $0811, $0c00, $ffff, $1400, $0628, $1014
+	Intro_EN HEY, HEY, LOOK, AT, MY, POKEMON	
+	Win_EN SO, SO, DID, I, SURPRISE, YOU	
+	Loss_EN WAAAH, WAAAH, WHAT, _A, SURPRISE, _EX
 
 	Intro_JP $0a14, $1034, $020e, $2017, $242c, $100e
 	Win_JP $0801, $0c00, $ffff, $2017, $0607, $100e

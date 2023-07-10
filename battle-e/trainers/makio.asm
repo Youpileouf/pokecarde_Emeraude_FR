@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db POKEFAN_M
 	BT_Floor 0
-	Text_EN "MAKIO"8
+	Text_EN "KYLER"8
 	Text_JP "マキオ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1e10, $020e, $100b, $1219, $1021, $ffff
-	Win_EN $24b8, $1228, $0c01, $281e, $2818, $0c01
-	Loss_EN $1219, $0e16, $100b, $1427, $1239, $1015
+	Intro_EN ARE, MY, POKEMON, SCARY, _QU, $ffff
+	Win_EN I, ADORE, _SCARY_FACE, IT_S, INCREDIBLE, _EX_EX	
+	Loss_EN IT, LOOKS, LIKE, _SCARY_FACE, WASN_T, ENOUGH
 
 	Intro_JP $1e10, $020e, $100b, $1219, $1021, $ffff
 	Win_JP $24b8, $1228, $0c01, $281e, $2818, $0c01

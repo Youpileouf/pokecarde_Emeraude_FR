@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db HEX_MANIAC
 	BT_Floor 0
-	Text_EN "SADAYO"8
+	Text_EN "LEILA"8
 	Text_JP "サダヨ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a15, $020e, $0c03, $0a0c, $020e, $0c03
-	Win_EN $1243, $1430, $0c03, $1439, $1030, $0c06
-	Loss_EN $164c, $1041, $0c03, $143a, $1030, $0c00
+	Intro_EN BEGINNING, _QU, END, _QU_EX, HUH_, _ELIP	
+	Win_EN _DUSCLOPS, _EX_EX, _SLAKING, _QU_EX, THAT_S, WHO	
+	Loss_EN _SLAKING, _QU, _DUSCLOPS, _QU_EX, WHO_IS, IT
 
 	Intro_JP $0a15, $020e, $0c03, $0a0c, $020e, $0c03
 	Win_JP $1243, $1430, $0c03, $1439, $1030, $0c06

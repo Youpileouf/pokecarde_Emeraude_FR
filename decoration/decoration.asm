@@ -34,7 +34,7 @@ TransferSuccessRegirock:
 	;db $FD,$02,$37,$00,$05,$08,$27,$2A,$13,$00,$07,$10,$AB,$FF
 
 TransferFailTextRegirock:
-	Text_EN "There is not enough room for the\n"
+	Text_EN "There is no room for the\n"
 	Text_EN "\v2...@"
 	;db $FD,$02,$2D,$00,$02,$2A,$29,$FE,$46,$0C,$36,$37,$00,$01,$02,$13,$00,$02,$15,$06,$50,$10,$B0,$FF
 RegirockEnd:
@@ -73,7 +73,7 @@ TransferSuccessRegice:
 	;db $FD,$02,$37,$00,$05,$08,$27,$2A,$13,$00,$07,$10,$AB,$FF
 
 TransferFailTextRegice:
-	Text_EN "There is not enough room for the\n"
+	Text_EN "There is no room for the\n"
 	Text_EN "\v2...@"
 	;db $FD,$02,$2D,$00,$02,$2A,$29,$FE,$46,$0C,$36,$37,$00,$01,$02,$13,$00,$02,$15,$06,$50,$10,$B0,$FF
 RegiceEnd:
@@ -111,7 +111,7 @@ TransferSuccessRegisteel:
 	;db $FD,$02,$37,$00,$05,$08,$27,$2A,$13,$00,$07,$10,$AB,$FF
 
 TransferFailTextRegisteel:
-	Text_EN "There is not enough room for the\n"
+	Text_EN "There is no room for the\n"
 	Text_EN "\v2...@"
 	;db $FD,$02,$2D,$00,$02,$2A,$29,$FE,$46,$0C,$36,$37,$00,$01,$02,$13,$00,$02,$15,$06,$50,$10,$B0,$FF
 RegisteelEnd:

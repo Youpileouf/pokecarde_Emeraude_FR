@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db HEX_MANIAC
 	BT_Floor 0
-	Text_EN "SUENO"8
+	Text_EN "ANABEL"8
 	Text_JP "スエノ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1c07, $0e16, $103e, $0626, $102a, $0c00
-	Win_EN $0626, $102a, $0e1d, $1610, $1430, $0c03
-	Loss_EN $0626, $1430, $0a05, $0605, $1018, $0c04
+	Intro_EN YOU, SHOULD, RUN_AWAY, NOW, _EX, $ffff
+	Win_EN I, SAID, YOU, SHOULD, RUN_AWAY, _EX	
+	Loss_EN YOU, DIDN_T, RUN_AWAY, YOU, WON, _ELIP
 
 	Intro_JP $1c07, $0e16, $103e, $0626, $102a, $0c00
 	Win_JP $0626, $102a, $0e1d, $1610, $1430, $0c03

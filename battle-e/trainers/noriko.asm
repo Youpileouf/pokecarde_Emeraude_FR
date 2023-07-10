@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BATTLE_GIRL
 	BT_Floor 0
-	Text_EN "NORIKO"8
+	Text_EN "NATALIE"8
 	Text_JP "ノリコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1e10, $0c1c, $1618, $244a, $1e11, $1044
-	Win_EN $0c32, $0a48, $020e, $0e12, $1413, $1021
-	Loss_EN $0e36, $1413, $020e, $1034, $1a32, $1020
+	Intro_EN HOW, ABOUT, _A, POKEMON, BATTLE, _QU_EX	
+	Win_EN I, WON, ALTHOUGH, I_AM, YOUNG, _EX	
+	Loss_EN I_AM, WORKING, HARD, TO, GET, BETTER
 
 	Intro_JP $1e10, $0c1c, $1618, $244a, $1e11, $1044
 	Win_JP $0c32, $0a48, $020e, $0e12, $1413, $1021

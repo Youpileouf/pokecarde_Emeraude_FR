@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db SCHOOL_KID_M
 	BT_Floor 5
-	Text_EN "TOMOYA"8
+	Text_EN "EDDY"8
 	Text_JP "トモヤス"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a05, $020e, $ffff, $1643, $1602, $0c00
-	Win_EN $0a1d, $020e, $ffff, $1409, $1403, $0c00
-	Loss_EN $0a1d, $020e, $ffff, $1409, $1431, $0c00
+	Intro_EN THIS, MOVE, IS, ABSOLUTELY, GENIUS, _EX	
+	Win_EN _TOXIC, _EX, PRETTY, GOOD, RIGHT, _QU	
+	Loss_EN I, CAN_T, BEAT, YOU, _ELIP, $ffff
 
 	Intro_JP $0a05, $020e, $ffff, $1643, $1602, $0c00
 	Win_JP $0a1d, $020e, $ffff, $1409, $1403, $0c00

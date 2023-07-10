@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db NINJA_BOY
 	BT_Floor 0
-	Text_EN "YU"8
+	Text_EN "AARON"8
 	Text_JP "ユウ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $26bc, $0e1d, $ffff, $1232, $1017, $ffff
-	Win_EN $2005, $0c04, $ffff, $1804, $160a, $0c03
-	Loss_EN $0a3d, $0c01, $1804, $1e23, $1216, $1017
+	Intro_EN ISN_T, _SLUDGE_BOMB, GREAT, _QU_EX, $ffff, $ffff
+	Win_EN HEHE, _ELIP, $ffff, NEED, _A, BATH, QU
+	Loss_EN MY, POKEMON, DISLIKE, TO, BATH, _EX
 
 	Intro_JP $26bc, $0e1d, $ffff, $1232, $1017, $ffff
 	Win_JP $2005, $0c04, $ffff, $1804, $160a, $0c03

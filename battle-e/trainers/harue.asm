@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TUBER_F
 	BT_Floor 0
-	Text_EN "HARUE"8
+	Text_EN "MALORY"8
 	Text_JP "ハルエ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a02, $0175, $1222, $0c03, $1642, $1602
-	Win_EN $2639, $042c, $0c06, $0628, $042c, $0c06
-	Loss_EN $0c0a, $0c00, $0a01, $1034, $0175, $0c04
+	Intro_EN I, WILL, SHOW, YOU, MY, _ARMALDO
+	Win_EN SMOOTH, _SURF, _ELIP, SMOOTH, BATTLE, _ELIP
+	Loss_EN AIYEEH, _EX, MY, _ARMALDO, _ELIP, _ELIP
 
 	Intro_JP $0a02, $0175, $1222, $0c03, $1642, $1602
 	Win_JP $2639, $042c, $0c06, $0628, $042c, $0c06

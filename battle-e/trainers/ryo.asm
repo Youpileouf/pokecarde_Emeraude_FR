@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TRIATHLETE_M_SWIM
 	BT_Floor 0
-	Text_EN "RYO"8
+	Text_EN "DAMON"8
 	Text_JP "リョウ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a2c, $1643, $0c04, $0a3a, $1234, $020e
-	Win_EN $0c37, $0c01, $1e0b, $020e, $1232, $1015
-	Loss_EN $0613, $0c01, $123a, $020e, $1014, $0e0a
+	Intro_EN I, WILL, AIM, FOR, WEAK, POINTS	
+	Win_EN I, HIT, YOUR, WEAK, POINTS, _EX	
+	Loss_EN I, COULDN_T, SEE, THE, WEAK, POINTS
 
 	Intro_JP $0a2c, $1643, $0c04, $0a3a, $1234, $020e
 	Win_JP $0c37, $0c01, $1e0b, $020e, $1232, $1015

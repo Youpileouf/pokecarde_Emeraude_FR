@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db HEX_MANIAC
 	BT_Floor 0
-	Text_EN "RINA"8
+	Text_EN "ELI"8
 	Text_JP "リナ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $2005, $1601, $102a, $0a48, $0605, $103e
-	Win_EN $0a48, $26c2, $0c04, $0a1c, $060e, $0c04
-	Loss_EN $0a45, $0e0b, $0c06, $1601, $1010, $0c06
+	Intro_EN JUST, GIVE_UP, I, HAVE, WON, _EX	
+	Win_EN MY, _DESTINY_BOND, HAS, DECIDED, YOUR, DESTINY
+	Loss_EN LOOKS, LIKE, I, DECIDED, TO, GIVE_UP
 
 	Intro_JP $2005, $1601, $102a, $0a48, $0605, $103e
 	Win_JP $0a48, $26c2, $0c04, $0a1c, $060e, $0c04

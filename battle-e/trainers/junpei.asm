@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db RICH_BOY
 	BT_Floor 0
-	Text_EN "JUNPEI"8
+	Text_EN "AXEL"8
 	Text_JP "ジュンペイ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1e0b, $0408, $ffff, $061b, $1405, $1021
-	Win_EN $0a1e, $0408, $1034, $061b, $142f, $100e
-	Loss_EN $1c12, $1429, $0408, $1606, $100d, $1005
+	Intro_EN ISN_T, MY, COLOR, CHOICE, FABULOUS, _QU	
+	Win_EN YOU, HAVE, NO, SENSE, OF, COLOR	
+	Loss_EN MAYBE, _A, DIFFERENT, COLOR, NEXT, TIME
 
 	Intro_JP $1e0b, $0408, $ffff, $061b, $1405, $1021
 	Win_JP $0a1e, $0408, $1034, $061b, $142f, $100e
