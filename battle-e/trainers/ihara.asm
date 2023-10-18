@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "イハラ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a1b, $0606, $0e0c, $142f, $1023, $0e08
-	Win_EN $24cf, $0605, $1034, $1404, $061d, $1020
-	Loss_EN $24cf, $0e16, $100b, $060a, $1023, $1032
+	Intro_EN MY, POKEMON, _AND, I, WORK, TOGETHER	
+	Win_EN YOU_RE, NOT, READY, TO, UNDERSTAND, POKEMON	
+	Loss_EN MY, LOSS, WAS, ON, ME, _ELIP
 
 	Intro_JP $0a1b, $0606, $0e0c, $142f, $1023, $0e08
 	Win_JP $24cf, $0605, $1034, $1404, $061d, $1020

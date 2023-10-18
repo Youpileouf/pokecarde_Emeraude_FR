@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db PKMN_RANGER_F
 	BT_Floor 19
-	Text_EN "HOYOSHI"8
+	Text_EN "BEATRICE"8
 	Text_JP "ホヨシ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a48, $061d, $0e1d, $0e1a, $142a, $1042
-	Win_EN $1e1b, $0c03, $ffff, $142a, $1010, $1021
-	Loss_EN $0a02, $1615, $0620, $0e36, $142a, $102a
+	Intro_EN MY, GUARD, CAN_T, BE, DEFEATED, _EX	
+	Win_EN BELIEVE, IN, YOUR, OWN, STRENGTH, _EX	
+	Loss_EN IT, SEEMS, MY, GUARD, WAS, WEAK
 
 	Intro_JP $0a48, $061d, $0e1d, $0e1a, $142a, $1042
 	Win_JP $1e1b, $0c03, $ffff, $142a, $1010, $1021

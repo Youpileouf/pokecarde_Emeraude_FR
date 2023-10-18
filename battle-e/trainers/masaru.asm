@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TC_BLACK_BELT
 	BT_Floor 0
-	Text_EN "MASARU"8
+	Text_EN "MYMO"8
 	Text_JP "マサル"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0c11, $0c01, $ffff, $061e, $2808, $0c01
-	Win_EN $0c10, $ffff, $ffff, $0421, $250c, $0c01
-	Loss_EN $0e2c, $1002, $0c03, $061e, $062e, $0c03
+	Intro_EN WHOAH, _EX_EX, $ffff, POWER, IS, LIFE
+	Win_EN WHOAH, _EX_EX, $ffff, GUTS, CHARGE, _EX_EX
+	Loss_EN REALLY, _QU, I, LOST, POWER, _QU
 
 	Intro_JP $0c11, $0c01, $ffff, $061e, $2808, $0c01
 	Win_JP $0c10, $ffff, $ffff, $0421, $250c, $0c01

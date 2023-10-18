@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "モモコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1c1b, $0204, $0c01, $020e, $1643, $1032
-	Win_EN $0204, $1628, $0e1d, $1423, $1015, $0c01
-	Loss_EN $0204, $1e11, $0e0a, $244a, $201e, $1018
+	Intro_EN MY, POKEMON, HAVE, VERY, THICK_FAT, _EX	
+	Win_EN MY, POKEMON, DON_T, NEED, TO, DIET	
+	Loss_EN MAYBE, MY, POKEMON, SHOULD, DIET, _QU
 
 	Intro_JP $1c1b, $0204, $0c01, $020e, $1643, $1032
 	Win_JP $0204, $1628, $0e1d, $1423, $1015, $0c01

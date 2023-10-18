@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BEAUTY
 	BT_Floor 0
-	Text_EN "YUKA"8
+	Text_EN "DAWN"8
 	Text_JP "ユカ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $044a, $1a2a, $ffff, $1228, $102e, $0c00
-	Win_EN $0e36, $044a, $103c, $1606, $0e19, $0c03
-	Loss_EN $0e36, $044a, $103c, $1606, $103f, $0c04
+	Intro_EN MY, FASHION, WILL, MAKE, ME, SHINE	
+	Win_EN SHOULD, I, SHINE, SOME, MORE, _QU	
+	Loss_EN YOU, NEED, TO, SHINE, MORE, _EX
 
 	Intro_JP $044a, $1a2a, $ffff, $1228, $102e, $0c00
 	Win_JP $0e36, $044a, $103c, $1606, $0e19, $0c03

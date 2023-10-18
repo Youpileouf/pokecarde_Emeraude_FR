@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db EXPERT_M
 	BT_Floor 5
-	Text_EN "FUGEN"8
+	Text_EN "BALDWIN"8
 	Text_JP "フゲン"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1620, $140f, $1005, $0a28, $061d, $0c05
-	Win_EN $24b3, $1034, $0612, $1e1b, $100b, $0c01
-	Loss_EN $141a, $100b, $0c00, $0e2d, $24b3, $0c01
+	Intro_EN YOU_RE, FIGHTING, YOUR, OWN, BATTLE, _EX	
+	Win_EN HOW, WAS, MY, _REVERSAL, ATTACK, _QU	
+	Loss_EN ARRGH, _ELIP, WHAT, _A, _REVERSAL, _EX_EX
 
 	Intro_JP $1620, $140f, $1005, $0a28, $061d, $0c05
 	Win_JP $24b3, $1034, $0612, $1e1b, $100b, $0c01

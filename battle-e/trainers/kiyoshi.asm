@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db PSYCHIC_M
 	BT_Floor 12
-	Text_EN "KIYOSHI"8
+	Text_EN "JERRY"8
 	Text_JP "キヨシ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $143a, $061e, $ffff, $2023, $2017, $0c01
-	Win_EN $1618, $100e, $ffff, $0a3a, $2546, $0c00
-	Loss_EN $1427, $1014, $0c04, $0a3a, $2546, $0c06
+	Intro_EN I, SENSE, _A, POWER, _EX_EX, $ffff
+	Win_EN I, LISTEN, TO, MY, _EXTRASENSORY, _EX_EX	
+	Loss_EN MY, _EXTRASENSORY, WAS, NO, GOOD, _ELIP
 
 	Intro_JP $143a, $061e, $ffff, $2023, $2017, $0c01
 	Win_JP $1618, $100e, $ffff, $0a3a, $2546, $0c00

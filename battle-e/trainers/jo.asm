@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db KINDLER
 	BT_Floor 0
-	Text_EN "JO"8
+	Text_EN "RAUL"8
 	Text_JP "ジョウ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $141f, $26f1, $0c00, $201f, $26f1, $0c00
-	Win_EN $0e09, $26f1, $0c01, $0609, $26f1, $0c01
-	Loss_EN $1402, $26f1, $100b, $1430, $1239, $0c06
+	Intro_EN WHAT, _A, NICE, _SUNNY_DAY, IT, IS	
+	Win_EN _A, _SUNNY_DAY, FOR, VICTORY, _EX_EX, $ffff
+	Loss_EN SEEMS, THE, _SUNNY_DAY, WASN_T, SO, NICE
 
 	Intro_JP $141f, $26f1, $0c00, $201f, $26f1, $0c00
 	Win_JP $0e09, $26f1, $0c01, $0609, $26f1, $0c01

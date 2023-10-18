@@ -8,7 +8,7 @@ SECTION "prologue", ROM0[$100]
 	;Text "e reader" ; no string terminator
 	db 0,0,0,0,0,0,0,$01,$55
 	db 0,0,0,0
-	db REGION
+	db REGION_EN
 	db 0
 	db "GameFreak inc."
 	db 0,0

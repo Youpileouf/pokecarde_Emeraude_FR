@@ -224,112 +224,112 @@ label_33:
 ;Has Japanese text bytes if you want. Just uncomment tehm and comment the english text
 
 TitleText:
-	db "Decoration Gift\0"
+	db "DECORATION PRESENT\0"
     ;db $82,$E0,$82,$E6,$82,$A4,$82,$AA,$82,$A6,$83,$4F,$83,$62,$83,$59,$81,$40,$83,$76,$83,$8C,$83,$5B,$83,$93,$83,$67,$00
 
 FrontPageText: ; 1872
-	db "Decorate your secret base!\0"
+	db "“Decorate your SECRET BASE!”\0"
     ;db $81,$75,$82,$D0,$82,$DD,$82,$C2,$82,$AB,$82,$BF,$82,$F0,$82,$A9,$82,$B4,$82,$EB,$82,$A4,$81,$49,$81,$76,$83,$4C,$83,$83,$83,$93,$83,$79,$81,$5B,$83,$93,$82,$C9,$00
 FrontPageTextLine2:
-	db "Thank you for participating.\0"
+	db "Thank you for participating!\0"
     ;db $82,$B2,$82,$A8,$82,$A4,$82,$DA,$82,$A2,$82,$BD,$82,$BE,$82,$AB,$81,$40,$82,$A0,$82,$E8,$82,$AA,$82,$C6,$82,$A4,$82,$B2,$82,$B4,$82,$A2,$82,$DC,$82,$B5,$82,$BD,$00
 FrontPageTextLine3:
 	db "Please press the A Button.\0"
     ;db $82,$60,$83,$7B,$83,$5E,$83,$93,$82,$F0,$81,$40,$82,$A8,$82,$B5,$82,$C4,$82,$AD,$82,$BE,$82,$B3,$82,$A2,$00
 
 FirstPage:
-    db "Please select the gift you would\0"
+    db "Please press the A Button\0"
     ;db $82,$C2,$82,$AC,$82,$CC,$82,$C8,$82,$A9,$82,$A9,$82,$E7,$81,$40,$82,$A8,$82,$AD,$82,$E8,$82,$BD,$82,$A2,$81,$40,$82,$E0,$82,$E6,$82,$A4,$82,$AA,$82,$A6,$83,$4F,$83,$62,$83,$59,$82,$F0,$00
 FirstPageLine2:
-    db "like to send from the list and\0"
+    db "to select a decoration\0"
     ;db $82,$A6,$82,$E7,$82,$F1,$82,$C5,$81,$40,$82,$60,$83,$7B,$83,$5E,$83,$93,$82,$F0,$81,$40,$82,$A8,$82,$B5,$82,$C4,$81,$40,$82,$AD,$82,$BE,$82,$B3,$82,$A2,$00
 FirstPageLine3:
-    db "press the A Button.\0"
+    db "from the list to send.\0"
     ;db $00
     
 
 SecondPage:
-    db "Connect the eReader and Pokemon\0"
+    db "Link e-Reader to Pokémon Ruby or\0"
     ;db $82,$C2,$82,$A4,$82,$B5,$82,$F1,$83,$50,$81,$5B,$83,$75,$83,$8B,$82,$C5,$81,$40,$83,$4A,$81,$5B,$83,$68,$82,$85,$83,$8A,$81,$5B,$83,$5F,$81,$5B,$81,$7B,$82,$C6,$00
 SecondPageLine2:
-    db "Ruby or Sapphire with the link cable and\0"
+    db "Sapphire and select MYSTERY EVENTS\0"
     ;db $83,$7C,$83,$50,$83,$82,$83,$93,$81,$40,$83,$8B,$83,$72,$81,$5B,$81,$40,$82,$A9,$81,$40,$83,$54,$83,$74,$83,$40,$83,$43,$83,$41,$82,$F0,$81,$40,$82,$C2,$82,$C8,$82,$AC,$00
 SecondPageLine3:
-    db "select Mystery Event.\0"
+    db "on the game's main menu.\0"
     ;db $81,$75,$82,$D3,$82,$B5,$82,$AC,$82,$C8,$81,$40,$82,$C5,$82,$AB,$82,$B2,$82,$C6,$81,$76,$82,$F0,$81,$40,$82,$A6,$82,$E7,$82,$F1,$82,$C5,$81,$40,$82,$AD,$82,$BE,$82,$B3,$82,$A2,$00
 
 
 ThirdPage:
-    db "will be sent to\0"
+    db "will be sent.\0"
     ;db $82,$F0,$81,$40,$82,$A8,$82,$AD,$82,$E8,$82,$DC,$82,$B7,$00
 ThirdPageLine2:
-    db "Pokemon Ruby/Sapphire. Please press\0"
+    db "Please press the A Button on\0"
     ;db $83,$7C,$83,$50,$83,$82,$83,$93,$81,$40,$83,$8B,$83,$72,$81,$5B,$81,$40,$82,$A9,$81,$40,$83,$54,$83,$74,$83,$40,$83,$43,$83,$41,$82,$CC,$00
 ThirdPageLine3:
-    db "the A Button.\0"
+    db "Pokémon Ruby or Sapphire.\0"
     ;db $82,$60,$83,$7B,$83,$5E,$83,$93,$82,$F0,$81,$40,$82,$A8,$82,$B5,$82,$C4,$81,$40,$82,$AD,$82,$BE,$82,$B3,$82,$A2,$00
 
 
 FourthPage:
-    db "is being sent. Please\0"
+    db "is being sent.\0"
     ;db $82,$F0,$81,$40,$82,$A8,$82,$AD,$82,$C1,$82,$C4,$81,$40,$82,$A2,$82,$DC,$82,$B7,$00
 FourthPageLine2:
-    db "do not remove the link cable.\0"
+    db "Don't remove the Game Link cable.\0"
     ;db $82,$C2,$82,$A4,$82,$B5,$82,$F1,$83,$50,$81,$5B,$83,$75,$83,$8B,$82,$F0,$81,$40,$82,$CA,$82,$A9,$82,$C8,$82,$A2,$82,$C5,$81,$40,$82,$AD,$82,$BE,$82,$B3,$82,$A2,$00
 FourthPageLine3:
-    db $00
+    db "Don't turn off the power.\0"
     ;db $82,$C5,$82,$F1,$82,$B0,$82,$F1,$82,$F0,$81,$40,$82,$AB,$82,$E7,$82,$C8,$82,$A2,$82,$C5,$81,$40,$82,$AD,$82,$BE,$82,$B3,$82,$A2,$00
 
 
 FifthPage:
-    db "has been sent.\0"
+    db "has been received.\0"
     ;db $82,$AA,$81,$40,$82,$A8,$82,$AD,$82,$E7,$82,$EA,$81,$40,$82,$DC,$82,$B5,$82,$BD,$00
 FifthPageLine2:
-    db "Press A to start over.\0"
+    db "Press the A Button to start over.\0"
     ;db $82,$60,$83,$7B,$83,$5E,$83,$93,$82,$C5,$81,$40,$82,$CD,$82,$B6,$82,$DF,$82,$A9,$82,$E7,$81,$40,$82,$E2,$82,$E8,$82,$C8,$82,$A8,$82,$B5,$82,$DC,$82,$B7,$00
 FifthPageLine3:
-    db "Press B to finish.\0"
+    db "Press the B Button to exit.\0"
     ;db $82,$61,$83,$7B,$83,$5E,$83,$93,$82,$C5,$81,$40,$82,$B5,$82,$E3,$82,$A4,$82,$E8,$82,$E5,$82,$A4,$81,$40,$82,$B5,$82,$DC,$82,$B7,$00
 
 
 TransferFailed:
-	db "Transfer Failed.\0"
+	db "Link failed...\0"
     ;db $82,$C4,$82,$F1,$82,$BB,$82,$A4,$82,$C9,$81,$40,$82,$B5,$82,$C1,$82,$CF,$82,$A2,$82,$B5,$82,$DC,$82,$B5,$82,$BD,$00
 
 PressA:
-    db "Press A to start over.\0"
+    db "Press the A Button to start over.\0"
     ;db $82,$60,$83,$7B,$83,$5E,$83,$93,$82,$C5,$81,$40,$82,$CD,$82,$B6,$82,$DF,$82,$A9,$82,$E7,$81,$40,$82,$E2,$82,$E8,$82,$C8,$82,$A8,$82,$B5,$82,$DC,$82,$B7,$00
 
 FinishB:
-    db "Press B to finish.\0"
+    db "Press the B Button to exit.\0"
     ;db $82,$61,$83,$7B,$83,$5E,$83,$93,$82,$C5,$81,$40,$82,$B5,$82,$E3,$82,$A4,$82,$E8,$82,$E5,$82,$A4,$82,$B5,$82,$DC,$82,$B7,$00
 
 TransferCancelled:
-    db "Transfer cancelled.\0"
+    db "The link was canceled.\0"
     ;db $82,$C4,$82,$F1,$82,$BB,$82,$A4,$82,$F0,$81,$40,$83,$4C,$83,$83,$83,$93,$83,$5A,$83,$8B,$82,$B5,$82,$DC,$82,$B5,$82,$BD,$00
 
 ;idk why there's two of these
 PressA2:
-    db "Press A to start over.\0"
+    db "Press the A Button to start over.\0"
     ;db $82,$60,$83,$7B,$83,$5E,$83,$93,$82,$C5,$81,$40,$82,$CD,$82,$B6,$82,$DF,$82,$A9,$82,$E7,$81,$40,$82,$E2,$82,$E8,$82,$C8,$82,$A8,$82,$B5,$82,$DC,$82,$B7,$00
 
 FinishB2:
-    db "Press B to finish.\0"
+    db "Press the B Button to exit.\0"
     ;db $82,$61,$83,$7B,$83,$5E,$83,$93,$82,$C5,$81,$40,$82,$B5,$82,$E3,$82,$A4,$82,$E8,$82,$E5,$82,$A4,$82,$B5,$82,$DC,$82,$B7,$00
 
 ;The items in order that they'll appear
 ;Second and third options may need spaces at the start
 ;My guess as to why is in Japanese the regi dolls have the same length and so moves ahead a certain amount instead of using pointers
 RegirockDollText:
-	db "Regirock Doll \0"
+	db "REGIROCK DOLL \0"
     ;db $83,$8C,$83,$57,$83,$8D,$83,$62,$83,$4E,$83,$68,$81,$5B,$83,$8B,$00
 
 RegiceDollText:
-	db "  Regice Doll \0"
+	db "  REGICE DOLL \0"
     ;db $83,$8C,$83,$57,$83,$41,$83,$43,$83,$58,$83,$68,$81,$5B,$83,$8B,$00
 
 RegisteelDollText:
-	db "    Registeel Doll \0"
+	db "    REGISTEEL DOLL \0"
     ;db $83,$8C,$83,$57,$83,$58,$83,$60,$83,$8B,$83,$68,$81,$5B,$83,$8B,$00
 
 
@@ -1000,15 +1000,15 @@ sub_273C: ; RegiSelectText
 ;This is the text you see on the menu select textbox, in order they appear
 
 RegirockText2:
-	db "Regirock Doll\0"
+	db "REGIROCK DOLL\0"
     ;db $83,$8C,$83,$57,$83,$8D,$83,$62,$83,$4E,$83,$68,$81,$5B,$83,$8B,$00
 
 RegiceText2:
-	db "Regice Doll\0"
+	db "REGICE DOLL\0"
     ;db $83,$8C,$83,$57,$83,$41,$83,$43,$83,$58,$83,$68,$81,$5B,$83,$8B,$00
 
 RegisteelText2:
-	db "Registeel Doll\0"
+	db "REGISTEEL DOLL\0"
     ;db $83,$8C,$83,$57,$83,$58,$83,$60,$83,$8B,$83,$68,$81,$5B,$83,$8B,$00
 
 

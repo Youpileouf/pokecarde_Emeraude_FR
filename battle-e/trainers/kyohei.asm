@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db GUITARIST
 	BT_Floor 0
-	Text_EN "KYOHEI"8
+	Text_EN "CLYDE"8
 	Text_JP "キョウヘイ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $2010, $0612, $1621, $1236, $100e, $ffff
-	Win_EN $0612, $1628, $0e2b, $0a1e, $122f, $0c01
-	Loss_EN $0a1d, $0612, $0e28, $060c, $100e, $ffff
+	Intro_EN HEAR, ME, ROAR, WROOOAAR_, _EX_EX, $ffff
+	Win_EN WHOAH, _EX, THAT_S, MY, SPIKES, SONG	
+	Loss_EN THIS, IS, _A, SAD, SONG, $ffff
 
 	Intro_JP $2010, $0612, $1621, $1236, $100e, $ffff
 	Win_JP $0612, $1628, $0e2b, $0a1e, $122f, $0c01

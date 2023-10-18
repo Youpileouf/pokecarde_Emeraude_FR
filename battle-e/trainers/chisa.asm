@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db SCHOOL_KID_F
 	BT_Floor 0
-	Text_EN "CHISA"8
+	Text_EN "DOLLY"8
 	Text_JP "チサ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1428, $020e, $162c, $1616, $1602, $1033
-	Win_EN $1428, $0418, $0e16, $100b, $142f, $103f
-	Loss_EN $0418, $0e16, $102b, $0a48, $1428, $020e
+	Intro_EN DO, YOU, LIKE, GRASS, POKEMON, _QU	
+	Win_EN AREN_T, MY, GRASS, POKEMON, STRONG, _QU	
+	Loss_EN MAYBE, SOME, _AROMATHERAPY, WOULD, BE, NICE
 
 	Intro_JP $1428, $020e, $162c, $1616, $1602, $1033
 	Win_JP $1428, $0418, $0e16, $100b, $142f, $103f

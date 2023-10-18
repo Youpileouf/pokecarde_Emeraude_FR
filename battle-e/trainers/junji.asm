@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db COLLECTOR
 	BT_Floor 0
-	Text_EN "JUNJI"8
+	Text_EN "JACE"8
 	Text_JP "ジュンジ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0467, $1034, $1429, $020e, $1606, $1028
-	Win_EN $0467, $1429, $0134, $1232, $102d, $0c00
-	Loss_EN $0467, $1429, $020e, $0e36, $1606, $103f
+	Intro_EN I, COLLECT, POKEMON, WITH, DIFFERENT, LOOKS	
+	Win_EN _SURSKIT, HAS, _A, NICE, LOOK, _EX	
+	Loss_EN YOU, NEED, POKEMON, WITH, DIFFERENT, LOOKS
 
 	Intro_JP $0467, $1034, $1429, $020e, $1606, $1028
 	Win_JP $0467, $1429, $0134, $1232, $102d, $0c00

@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db GENTLEMAN
 	BT_Floor 0
-	Text_EN "ANTHONY"8
+	Text_EN "GREGORY"8
 	Text_JP "アンソニー"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a43, $1e0b, $0408, $1228, $102b, $100b
-	Win_EN $0a43, $1034, $020e, $1405, $0408, $100b
-	Loss_EN $0a1a, $1034, $020e, $1405, $0408, $100b
+	Intro_EN MY, NEED, TO, WIN, IS, OVERWHELMING	
+	Win_EN I, MUST_BE, THE, WINNER, _EX, $ffff
+	Loss_EN THIS, FEELING, WON_T, GO, AWAY, _ELIP
 
 	Intro_JP $0a43, $1e0b, $0408, $1228, $102b, $100b
 	Win_JP $0a43, $1034, $020e, $1405, $0408, $100b

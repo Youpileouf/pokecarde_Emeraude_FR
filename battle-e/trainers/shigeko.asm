@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db POKEFAN_F
 	BT_Floor 0
-	Text_EN "SHIGEKO"8
+	Text_EN "PAULINE"8
 	Text_JP "シゲコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0e1b, $1e14, $020e, $0418, $100b, $142f
-	Win_EN $1e0a, $1034, $020e, $1a24, $1239, $1021
-	Loss_EN $062e, $0e1f, $0418, $020e, $1030, $103e
+	Intro_EN AREN_T, MY, POKEMON, CUTE, _QU, $ffff
+	Win_EN THEY, LOOK, LIKE, _A, PLUSH_DOLL, _EX	
+	Loss_EN I, LOST, _ELIP, EVEN_SO_, THEY_RE, CUTE, _EX
 
 	Intro_JP $0e1b, $1e14, $020e, $0418, $100b, $142f
 	Win_JP $1e0a, $1034, $020e, $1a24, $1239, $1021

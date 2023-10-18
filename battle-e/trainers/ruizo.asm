@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db NINJA_BOY
 	BT_Floor 5
-	Text_EN "RUIZO"8
+	Text_EN "TALON"8
 	Text_JP "ルイゾウ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $2805, $0c00, $ffff, $180f, $1621, $1037
-	Win_EN $0632, $162d, $1022, $2732, $1422, $0c00
-	Loss_EN $0c09, $0c06, $ffff, $120d, $2732, $0c04
+	Intro_EN YAY, _EX, $ffff, TIME, TO, TRAIN	
+	Win_EN YOU, COULDN_T, BEAT, MY, _CRUSH_CLAW, HUH_	
+	Loss_EN AWW, $ffff, $ffff, MY, _CRUSH_CLAW, _ELIP
 
 	Intro_JP $2805, $0c00, $ffff, $180f, $1621, $1037
 	Win_JP $0632, $162d, $1022, $2732, $1422, $0c00

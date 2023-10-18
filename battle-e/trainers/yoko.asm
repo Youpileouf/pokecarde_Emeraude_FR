@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db LASS
 	BT_Floor 0
-	Text_EN "YOKO"8
+	Text_EN "AMELIA"8
 	Text_JP "ヨウコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $081c, $1643, $1643, $0e2a, $0418, $1021
-	Win_EN $0c32, $1032, $0c03, $0419, $26d5, $1021
-	Loss_EN $0c19, $0c00, $262d, $0e17, $0418, $103d
+	Intro_EN LOOK, _EX, ISN_T, IT, CUTE, _QU	
+	Win_EN DON_T, YOU, JUST, ADORE, CUTENESS, _QU	
+	Loss_EN AWW, IT_S, CRIES, ARE, CUTE, _EX
 
 	Intro_JP $081c, $1643, $1643, $0e2a, $0418, $1021
 	Win_JP $0c32, $1032, $0c03, $0419, $26d5, $1021

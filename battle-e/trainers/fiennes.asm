@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db GENTLEMAN
 	BT_Floor 0
-	Text_EN "FIENNES"8
+	Text_EN "RANULF"8
 	Text_JP "ファインズ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a49, $123a, $020e, $1646, $140f, $103e
-	Win_EN $1234, $1e11, $1005, $0c28, $0c00, $ffff
-	Loss_EN $0465, $1642, $1238, $1c27, $1613, $0c06
+	Intro_EN I, HAVE, RARE, POKEMON, _EX, $ffff
+	Win_EN HAHAHA, DID, I, SURPRISE, YOU, _QU	
+	Loss_EN EVEN_SO_, I, GOT, TO, SHOW, OFF
 
 	Intro_JP $0a49, $123a, $020e, $1646, $140f, $103e
 	Win_JP $1234, $1e11, $1005, $0c28, $0c00, $ffff

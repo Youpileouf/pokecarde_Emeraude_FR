@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_BREEDER_M
 	BT_Floor 0
-	Text_EN "SHINJI"8
+	Text_EN "WILSON"8
 	Text_JP "シンジ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1c12, $1034, $0a3b, $0e07, $1429, $100e
-	Win_EN $1e1b, $244a, $1e11, $1002, $164c, $0c03
-	Loss_EN $1e04, $0c03, $201e, $244a, $122d, $0c03
+	Intro_EN I_AM, QUITE, DIFFERENT, FROM, BEFORE, _EX	
+	Win_EN CAN, YOU, SEE, THE, GROWTH, _QU	
+	Loss_EN HUH_, NOT, DIFFERENT, ENOUGH, _QU, $ffff
 
 	Intro_JP $1c12, $1034, $0a3b, $0e07, $1429, $100e
 	Win_JP $1e1b, $244a, $1e11, $1002, $164c, $0c03

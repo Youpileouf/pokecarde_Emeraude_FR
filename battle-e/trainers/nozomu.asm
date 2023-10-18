@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TRIATHLETE_M_BIKE
 	BT_Floor 0
-	Text_EN "NOZOMU"8
+	Text_EN "DAWSON"8
 	Text_JP "ノゾム"8
 	OT_ID 00000, 00000
 
-	Intro_EN $2013, $1a15, $1a34, $1c28, $1c0a, $1011
-	Win_EN $1643, $1007, $103e, $0a3a, $020e, $0c00
-	Loss_EN $201e, $1014, $0c04, $0a3a, $020e, $0c04
+	Intro_EN AREN_T, MY, POKEMON, COOL, _QU, $ffff
+	Win_EN NO, NEED, TO, BE, DISAPPOINTED, _EX	
+	Loss_EN THEY_RE, COOL, BUT, NEED, TO, TRAIN
 
 	Intro_JP $2013, $1a15, $1a34, $1c28, $1c0a, $1011
 	Win_JP $1643, $1007, $103e, $0a3a, $020e, $0c00

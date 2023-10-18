@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db AROMA_LADY
 	BT_Floor 0
-	Text_EN "MIYOKO"8
+	Text_EN "ESTHER"8
 	Text_JP "ミヨコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0a02, $041c, $020e, $1222, $1004, $0c03
-	Win_EN $041c, $020e, $1443, $061d, $1014, $1021
-	Loss_EN $2538, $0e1d, $ffff, $1405, $1021, $ffff
+	Intro_EN DO, YOU, LIKE, GRASS, POKEMON, _QU	
+	Win_EN AREN_T, MY, GRASS, POKEMON, STRONG, _QU	
+	Loss_EN MAYBE, SOME, _AROMATHERAPY, WOULD, BE, NICE
 
 	Intro_JP $0a02, $041c, $020e, $1222, $1004, $0c03
 	Win_JP $041c, $020e, $1443, $061d, $1014, $1021

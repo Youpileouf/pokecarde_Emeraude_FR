@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_RANGER_F
 	BT_Floor 0
-	Text_EN "REINA"8
+	Text_EN "EZRA"8
 	Text_JP "レイナ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $1a2b, $0e28, $0e14, $1236, $063e, $1017
-	Win_EN $1c18, $0a34, $1012, $0e21, $0606, $1022
-	Loss_EN $1c18, $0a34, $1012, $062e, $0e1f, $1405
+	Intro_EN WANT, TO, SEE, _A, TRICK, _QU	
+	Win_EN WASN_T, MY, TRICK, GREAT, _QU, $ffff
+	Loss_EN THAT, TRICK, IS, HARD, WORK, _EX
 
 	Intro_JP $1a2b, $0e28, $0e14, $1236, $063e, $1017
 	Win_JP $1c18, $0a34, $1012, $0e21, $0606, $1022

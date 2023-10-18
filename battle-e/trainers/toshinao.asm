@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db NINJA_BOY
 	BT_Floor 0
-	Text_EN "TOSHINA"8
+	Text_EN "KEANE"8
 	Text_JP "トシナオ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $0812, $102d, $0c00, $1e15, $0c00, $ffff
-	Win_EN $265c, $1034, $0619, $102d, $0c00, $ffff
-	Loss_EN $265c, $0e1f, $0c04, $201c, $102d, $0c04
+	Intro_EN HERE, I, AM, LET_S, GO, _EX
+	Win_EN IT_S, _A, _TOXIC, VICTORY, _EX_EX, $ffff
+	Loss_EN HOW, DID, _TOXIC, LOSE, _ELIP, _QU
 
 	Intro_JP $0812, $102d, $0c00, $1e15, $0c00, $ffff
 	Win_JP $265c, $1034, $0619, $102d, $0c00, $ffff

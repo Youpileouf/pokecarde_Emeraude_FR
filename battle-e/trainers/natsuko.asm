@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TRIATHLETE_F_SWIM
 	BT_Floor 0
-	Text_EN "NATSUKO"8
+	Text_EN "AUTUMN"8
 	Text_JP "ナツコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $2723, $1628, $0e29, $141b, $0e0b, $1225
-	Win_EN $2723, $1621, $ffff, $0408, $0408, $020f
-	Loss_EN $123a, $0408, $1014, $1034, $0c06, $121b
+	Intro_EN ALWAYS, DIVE, WITH, GOOD, SPIRIT, _EX	
+	Win_EN YOU, CAN, SEE, A_LOT, OF, POKEMON
+	Loss_EN IT, WAS, _A, RARE, COLOR, _ELIP
 
 	Intro_JP $2723, $1628, $0e29, $141b, $0e0b, $1225
 	Win_JP $2723, $1621, $ffff, $0408, $0408, $020f

@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db LADY
 	BT_Floor 0
-	Text_EN "MOET"8
+	Text_EN "CAMRYN"8
 	Text_JP "モエ"8
 	OT_ID 00000, 00000
 
-	Intro_EN $244a, $1e11, $0a48, $020e, $1643, $080a
-	Win_EN $0619, $1034, $1439, $0204, $1026, $ffff
-	Loss_EN $123a, $020e, $0e1f, $060a, $0e24, $0c04
+	Intro_EN MY, POKEMON, WILL, _SWEET_SCENT, YOU, _EX	
+	Win_EN FUFUFU, _EX, ISN_T, _SWEET_SCENT, AWESOME, _QU	
+	Loss_EN YOU, CAN_T, WIN, WITH, JUST, _SWEET_SCENT
 
 	Intro_JP $244a, $1e11, $0a48, $020e, $1643, $080a
 	Win_JP $0619, $1034, $1439, $0204, $1026, $ffff
