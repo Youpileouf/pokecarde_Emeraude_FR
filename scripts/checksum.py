@@ -11,7 +11,6 @@ wordwise_results = []
 crcs = []
 crc_results = []
 
-data = None
 with open(sys.argv[1], 'rb') as f:
 	data = f.read()
 f.closed

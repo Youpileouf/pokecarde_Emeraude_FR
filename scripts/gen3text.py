@@ -431,27 +431,7 @@ def utf8ToRSText(t, region = ""):
 	if region == "DE":
 		chars['“'] = '\xB2'
 
-#	characters = []
-#	char = ""
-#	while len(t):
-#		if ord(t[0]) >= 0xF0:
-#			char += t[0:4]
-#			t = t[4:]
-#		elif ord(t[0]) >= 0xE0:
-#			char += t[0:3]
-#			t = t[3:]
-#		elif ord(t[0]) >= 0xC0:
-#			char += t[0:2]
-#			t = t[2:]
-#		else:
-#			char += t[0:1]
-#			t = t[1:]
-#		if char != "\\" and char != "\\v" and (char[0:2] != "\\{" or char[-1] == "}"):
-#			characters.append(char)
-#			char = ""
-
 	result = ""
-#	for char in characters:
 	for char in t:
 		result += chars[char]
 	return result

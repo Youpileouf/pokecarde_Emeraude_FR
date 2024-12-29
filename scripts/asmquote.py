@@ -28,20 +28,10 @@ def asmQuote(t):
 	return result
 
 def asmQuoteBytes(t):
-	og_q = asmQuote(t)
-	og_b = ""
-	for b in og_q.replace('",0,"', '\x00').replace('"', '').replace(',0', '\x00'):
-		og_b += hex(ord(b))
-
 	result = ""
-	test = ""
 	for b in t:
 		result += '{0}'.format(ord(b)) + ","
-		test += hex(ord(b))
 
 	result = result[:-1]
-
-	if og_b != test:
-		print("WARN:", og_q, og_b, test)
 
 	return result
