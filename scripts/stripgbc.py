@@ -2,9 +2,9 @@
 #!/usr/bin/env python2.7
 import sys
 
-out = open(sys.argv[2], 'w')
+out = open(sys.argv[2], 'wb')
 buffering = False
-buf = ""
+buf = bytes()
 with open(sys.argv[1], 'rb') as f:
 	f.read(256) # skip to $0100
 	while True:
@@ -23,7 +23,7 @@ with open(sys.argv[1], 'rb') as f:
 		elif buffering:
 			out.write(buf)
 			out.write(byte)
-			buf = ""
+			buf = bytes()
 			buffering = False
 		else:
 			out.write(byte)
