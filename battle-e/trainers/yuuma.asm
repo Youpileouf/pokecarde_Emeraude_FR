@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	Class SCHOOL_KID_M
 	BT_Floor 0
-	Text_EN "DANE"8
+	Text_EN "BRYSON"8
 	Text_JP "ユウマ"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db PSYCHIC_M
 	BT_Floor 12
-	Text_EN "JERRY"8
+	Text_EN "MALCOLM"8
 	Text_JP "キヨシ"8
 	OT_ID 00000, 00000
 

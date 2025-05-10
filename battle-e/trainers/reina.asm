@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_RANGER_F
 	BT_Floor 0
-	Text_EN "EZRA"8
+	Text_EN "KRISTINA"8
 	Text_JP "レイナ"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db POKEFAN_F
 	BT_Floor 0
-	Text_EN "PAULINE"8
+	Text_EN "DEANNA"8
 	Text_JP "シゲコ"8
 	OT_ID 00000, 00000
 

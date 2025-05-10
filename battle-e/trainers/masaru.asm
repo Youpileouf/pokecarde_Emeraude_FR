@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TC_BLACK_BELT
 	BT_Floor 0
-	Text_EN "MYMO"8
+	Text_EN "TAKEO"8
 	Text_JP "マサル"8
 	OT_ID 00000, 00000
 

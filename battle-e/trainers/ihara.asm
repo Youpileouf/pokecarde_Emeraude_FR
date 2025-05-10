@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db COOLTRAINER_M
 	BT_Floor 12
-	Text_EN "IHARA"8
+	Text_EN "BRUCE"8
 	Text_JP "イハラ"8
 	OT_ID 00000, 00000
 

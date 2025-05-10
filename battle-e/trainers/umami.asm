@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db COOLTRAINER_F
 	BT_Floor 12
-	Text_EN "PHILLIPA"8
+	Text_EN "CHELSEY"8
 	Text_JP "ウマミ"8
 	OT_ID 00000, 00000
 

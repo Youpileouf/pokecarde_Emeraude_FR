@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	Class COLLECTOR
 	BT_Floor 0
-	Text_EN "PETE"8
+	Text_EN "ALFRED"8
 	Text_JP "ヒデヒコ"8
 	OT_ID 00000, 00000
 

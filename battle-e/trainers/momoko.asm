@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_BREEDER_F
 	BT_Floor 0
-	Text_EN "MOMOKO"8
+	Text_EN "CANDICE"8
 	Text_JP "モモコ"8
 	OT_ID 00000, 00000
 

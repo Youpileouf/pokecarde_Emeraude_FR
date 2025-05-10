@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db PSYCHIC_F
 	BT_Floor 12
-	Text_EN "PORTIA"8
+	Text_EN "BARBARA"8
 	Text_JP "サトエ"8
 	OT_ID 00000, 00000
 

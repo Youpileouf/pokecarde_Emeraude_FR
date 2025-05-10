@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db SCHOOL_KID_M
 	BT_Floor 5
-	Text_EN "EDDY"8
+	Text_EN "DAVIS"8
 	Text_JP "トモヤス"8
 	OT_ID 00000, 00000
 

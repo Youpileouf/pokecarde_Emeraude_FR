@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db NINJA_BOY
 	BT_Floor 5
-	Text_EN "TALON"8
+	Text_EN "SHINGO"8
 	Text_JP "ルイゾウ"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db RICH_BOY
 	BT_Floor 0
-	Text_EN "AXEL"8
+	Text_EN "TYSON"8
 	Text_JP "ジュンペイ"8
 	OT_ID 00000, 00000
 

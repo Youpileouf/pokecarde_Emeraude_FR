@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db HEX_MANIAC
 	BT_Floor 0
-	Text_EN "ANABEL"8
+	Text_EN "NADIA"8
 	Text_JP "スエノ"8
 	OT_ID 00000, 00000
 

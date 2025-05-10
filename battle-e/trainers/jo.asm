@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db KINDLER
 	BT_Floor 0
-	Text_EN "RAUL"8
+	Text_EN "WESLEY"8
 	Text_JP "ジョウ"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db PKMN_BREEDER_F
 	BT_Floor 5
-	Text_EN "JANI"8
+	Text_EN "LUCY"8
 	Text_JP "マミ"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TRIATHLETE_F_SWIM
 	BT_Floor 0
-	Text_EN "AUTUMN"8
+	Text_EN "KRISTEN"8
 	Text_JP "ナツコ"8
 	OT_ID 00000, 00000
 

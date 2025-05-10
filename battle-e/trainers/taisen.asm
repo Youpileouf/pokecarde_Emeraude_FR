@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	Class EXPERT_M
 	BT_Floor 5
-	Text_EN "OSWALD"8
+	Text_EN "FRED"8
 	Text_JP "タイセン"8
 	OT_ID 00000, 00000
 

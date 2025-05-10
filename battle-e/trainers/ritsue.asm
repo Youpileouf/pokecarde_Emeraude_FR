@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	Class LASS
 	BT_Floor 0
-	Text_EN "CLARA"8
+	Text_EN "SUSAN"8
 	Text_JP "リツエ"8
 	OT_ID 00000, 00000
 

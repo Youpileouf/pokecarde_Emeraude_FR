@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db RICH_BOY
 	BT_Floor 0
-	Text_EN "COLE"8
+	Text_EN "HOWARD"8
 	Text_JP "マツオ"8
 	OT_ID 00000, 00000
 

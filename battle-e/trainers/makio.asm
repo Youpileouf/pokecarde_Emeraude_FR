@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db POKEFAN_M
 	BT_Floor 0
-	Text_EN "KYLER"8
+	Text_EN "MARTIN"8
 	Text_JP "マキオ"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db SCHOOL_KID_F
 	BT_Floor 0
-	Text_EN "DOLLY"8
+	Text_EN "SILVIA"8
 	Text_JP "チサ"8
 	OT_ID 00000, 00000
 

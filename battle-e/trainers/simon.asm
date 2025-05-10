@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	Class GUITARIST
 	BT_Floor 0
-	Text_EN "ALPHONSE"8
+	Text_EN "ADAM"8
 	Text_JP "シモン"8
 	OT_ID 00000, 00000
 
