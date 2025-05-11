@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	Class GENTLEMAN
 	BT_Floor 0
-	Text_EN "NORBERT"8
+	Text_EN "EARL"8
 	Text_JP "ノートン"8
 	OT_ID 00000, 00000
 

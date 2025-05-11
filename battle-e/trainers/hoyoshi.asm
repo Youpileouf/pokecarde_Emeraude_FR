@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db PKMN_RANGER_F
 	BT_Floor 19
-	Text_EN "BEATRICE"8
+	Text_EN "BRANDY"8
 	Text_JP "ホヨシ"8
 	OT_ID 00000, 00000
 

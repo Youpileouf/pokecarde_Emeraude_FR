@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BEAUTY
 	BT_Floor 0
-	Text_EN "DAWN"8
+	Text_EN "ANGELINA"8
 	Text_JP "ユカ"8
 	OT_ID 00000, 00000
 

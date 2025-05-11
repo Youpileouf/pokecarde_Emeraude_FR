@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	Class BATTLE_GIRL
 	BT_Floor 5
-	Text_EN "LULU"8
+	Text_EN "BETHANY"8
 	Text_JP "ホヅミ"8
 	OT_ID 00000, 00000
 

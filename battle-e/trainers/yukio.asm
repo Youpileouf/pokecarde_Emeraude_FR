@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BUG_CATCHER
 	BT_Floor 0
-	Text_EN "BRETT"8
+	Text_EN "JORDAN"8
 	Text_JP "ユキオ"8
 	OT_ID 00000, 00000
 

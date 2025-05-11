@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db EXPERT_F
 	BT_Floor 0
-	Text_EN "ELLE"8
+	Text_EN "LILLIAN"8
 	Text_JP "コト"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db GENTLEMAN
 	BT_Floor 0
-	Text_EN "GREGORY"8
+	Text_EN "BRYANT"8
 	Text_JP "アンソニー"8
 	OT_ID 00000, 00000
 

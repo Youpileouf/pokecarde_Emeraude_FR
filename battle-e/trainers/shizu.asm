@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db COOLTRAINER_F
 	BT_Floor 19
-	Text_EN "KRISTEN"8
+	Text_EN "MIRANDA"8
 	Text_JP "シズ"8
 	OT_ID 00000, 00000
 

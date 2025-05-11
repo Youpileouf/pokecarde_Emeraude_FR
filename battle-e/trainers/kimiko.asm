@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	Class TRIATHLETE_F_RUN
 	BT_Floor 0
-	Text_EN "ISABEL"8
+	Text_EN "JANET"8
 	Text_JP "キミコ"8
 	OT_ID 00000, 00000
 

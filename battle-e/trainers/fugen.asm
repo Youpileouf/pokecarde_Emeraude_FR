@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db EXPERT_M
 	BT_Floor 5
-	Text_EN "BALDWIN"8
+	Text_EN "MICHAEL"8
 	Text_JP "フゲン"8
 	OT_ID 00000, 00000
 

@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BIRD_KEEPER
 	BT_Floor 0
-	Text_EN "HORACE"8
+	Text_EN "BRADY"8
 	Text_JP "スエキチ"8
 	OT_ID 00000, 00000
 

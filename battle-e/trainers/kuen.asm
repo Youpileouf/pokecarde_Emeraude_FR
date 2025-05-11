@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db DRAGON_TAMER
 	BT_Floor 19
-	Text_EN "DRAYCE"8
+	Text_EN "ZACHARY"8
 	Text_JP "クエン"8
 	OT_ID 00000, 00000
 

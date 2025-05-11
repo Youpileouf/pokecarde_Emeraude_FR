@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db GUITARIST
 	BT_Floor 0
-	Text_EN "VENTURO"8
+	Text_EN "NATHAN"8
 	Text_JP "ダイキチ"8
 	OT_ID 00000, 00000
 

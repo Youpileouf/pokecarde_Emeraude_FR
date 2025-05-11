@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db RUIN_MANIAC
 	BT_Floor 0
-	Text_EN "COSMO"8
+	Text_EN "MILTON"8
 	Text_JP "トシツグ"8
 	OT_ID 00000, 00000
 
