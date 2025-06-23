@@ -11,7 +11,7 @@ INCLUDE "trainers/macros.asm"
 
 	Intro_EN MY, GUARD, CAN_T, BE, DEFEATED, _EX	
 	Win_EN BELIEVE, IN, YOUR, OWN, STRENGTH, _EX	
-	Loss_EN IT, SEEMS, MY, GUARD, WAS, WEAK
+	Loss_EN MY, GUARD, CAN, BE, WEAK, TOO
 
 	Intro_JP $0a48, $061d, $0e1d, $0e1a, $142a, $1042
 	Win_JP $1e1b, $0c03, $ffff, $142a, $1010, $1021

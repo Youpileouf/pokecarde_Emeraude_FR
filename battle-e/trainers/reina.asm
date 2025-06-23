@@ -9,8 +9,8 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "レイナ"8
 	OT_ID 00000, 00000
 
-	Intro_EN WANT, TO, SEE, _A, TRICK, _QU	
-	Win_EN WASN_T, MY, TRICK, GREAT, _QU, $ffff
+	Intro_EN COME_OVER, I_AM, _A, TRICK, PSYCHIC
+	Win_EN MY, TRICK, IS, FABULOUS, ISN_T_IT_, $ffff
 	Loss_EN THAT, TRICK, IS, HARD, WORK, _EX
 
 	Intro_JP $1a2b, $0e28, $0e14, $1236, $063e, $1017

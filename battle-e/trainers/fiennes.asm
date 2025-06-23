@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "ファインズ"8
 	OT_ID 00000, 00000
 
-	Intro_EN I, HAVE, RARE, POKEMON, _EX, $ffff
+	Intro_EN I, HAVE, _A, RARE, POKEMON, _EX
 	Win_EN HAHAHA, DID, I, SURPRISE, YOU, _QU	
 	Loss_EN EVEN_SO_, I, GOT, TO, SHOW, OFF
 

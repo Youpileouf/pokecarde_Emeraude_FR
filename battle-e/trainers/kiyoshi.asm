@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "キヨシ"8
 	OT_ID 00000, 00000
 
-	Intro_EN I, SENSE, _A, POWER, _EX_EX, $ffff
+	Intro_EN I, SENSE, _A, MYSTERY, POWER, _EX_EX
 	Win_EN I, LISTEN, TO, MY, _EXTRASENSORY, _EX_EX	
 	Loss_EN MY, _EXTRASENSORY, WAS, NO, GOOD, _ELIP
 

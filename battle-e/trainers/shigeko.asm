@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "シゲコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN AREN_T, MY, POKEMON, CUTE, _QU, $ffff
+	Intro_EN HEY, AREN_T, MY, POKEMON, CUTE, _QU
 	Win_EN THEY, LOOK, LIKE, _A, PLUSH_DOLL, _EX	
-	Loss_EN I, LOST, _ELIP, EVEN_SO_, THEY_RE, CUTE, _EX
+	Loss_EN I, LOST, BUT, EVEN_SO_, THEY_RE, CUTE, _EX
 
 	Intro_JP $0e1b, $1e14, $020e, $0418, $100b, $142f
 	Win_JP $1e0a, $1034, $020e, $1a24, $1239, $1021

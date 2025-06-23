@@ -7,9 +7,9 @@ INCLUDE "../constants/natures.asm"
 INCLUDE "../constants/pokemon.asm"
 INCLUDE "../constants/trainerclasses.asm"
 
-DEF MOSSDEEP EQU 0
+MOSSDEEP EQU 0
 
-MACRO Battle_Trainer
+Battle_Trainer: MACRO
 	Section "battle",ROM0[$100]
 	db $01
 	dd $02000000
@@ -19,58 +19,58 @@ MACRO Battle_Trainer
 	db $02,$00
 	ENDM
 
-DEF BT_Level EQUS "db"
-DEF Class EQUS "db"
-DEF BT_Floor EQUS "dw" ; the byte after it is 00, but apparently means something…
-MACRO Intro_EN
+BT_Level EQUS "db"
+Class EQUS "db"
+BT_Floor EQUS "dw" ; the byte after it is 00, but apparently means something…
+Intro_EN: MACRO
 	IF REGION == REGION_EN
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-MACRO Win_EN
+Win_EN: MACRO
 	IF REGION == REGION_EN
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-MACRO Loss_EN
+Loss_EN: MACRO
 	IF REGION == REGION_EN
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-MACRO Intro_JP
+Intro_JP: MACRO
 	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-MACRO Win_JP
+Win_JP: MACRO
 	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-MACRO Loss_JP
+Loss_JP: MACRO
 	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-DEF Pokemon EQUS "dw"
-DEF Holds EQUS "dw"
-DEF Moves EQUS "dw"
-DEF Level EQUS "db"
-MACRO PP_Ups
+Pokemon EQUS "dw"
+Holds EQUS "dw"
+Moves EQUS "dw"
+Level EQUS "db"
+PP_Ups: MACRO
 	db (\1) + (\2 << 2) + (\3 << 4) + (\4 << 6)
 	ENDM
-DEF EVs EQUS "db"
-DEF OT_ID EQUS "dw"
-MACRO IVs
+EVs EQUS "db"
+OT_ID EQUS "dw"
+IVs: MACRO
 	dw \1 + (\2 << 5) + (\3 << 10) + ((\4 & 1) << 15)
 	dw (\4 >> 1) + (\5 << 4) + (\6 << 9) + (\7 << 15)
 	ENDM
-MACRO PV
+PV: MACRO
 	dw (\1 & $FFFF), (\1 >> 16)
 	ENDM
-DEF Friendship EQUS "db"
+Friendship EQUS "db"
 
-MACRO End_Trainer
+End_Trainer: MACRO
 	db 0,0,0,0
 	EOF
 	ENDM

@@ -9,8 +9,8 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "マサル"8
 	OT_ID 00000, 00000
 
-	Intro_EN WHOAH, _EX_EX, $ffff, POWER, IS, LIFE
-	Win_EN WHOAH, _EX_EX, $ffff, GUTS, CHARGE, _EX_EX
+	Intro_EN WHOAH, _EX_EX, POWER, IS, LIFE, _EX_EX
+	Win_EN WHOAH, _EX, MY, GUTS, CHARGE, _EX_EX
 	Loss_EN REALLY, _QU, I, LOST, POWER, _QU
 
 	Intro_JP $0c11, $0c01, $ffff, $061e, $2808, $0c01

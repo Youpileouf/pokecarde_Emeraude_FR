@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "ノリコ"8
 	OT_ID 00000, 00000
 
-	Intro_EN HOW, ABOUT, _A, POKEMON, BATTLE, _QU_EX	
+	Intro_EN HERE_IT_IS, _EX, _A, POKEMON, BATTLE, _EX	
 	Win_EN I, WON, ALTHOUGH, I_AM, YOUNG, _EX	
 	Loss_EN I_AM, WORKING, HARD, TO, GET, BETTER
 

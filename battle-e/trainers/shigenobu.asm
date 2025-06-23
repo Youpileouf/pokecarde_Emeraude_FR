@@ -5,13 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_BREEDER_M
 	BT_Floor 0
-	Text_EN "CANDICE"8
+	Text_EN "LOUIS"8
 	Text_JP "シゲノブ"8
 	OT_ID 00000, 00000
 
 	Intro_EN YOUR, MOVE, WILL, HIT, YOU, BACK	
-	Win_EN _COUNTER, ATTACK, _EX, ARE, YOU, OK_	
-	Loss_EN DISASTER, _EX, YOU, BEAT, MY, _COUNTER
+	Win_EN I, HIT, _A, _COUNTER, ATTACK, OK_,
+	Loss_EN GENIUS, _EX, YOU, BEAT, MY, _COUNTER
 
 	Intro_JP $020e, $2204, $1c17, $0a3a, $2200, $1643
 	Win_JP $020e, $2204, $0619, $1e04, $0c03, $1429

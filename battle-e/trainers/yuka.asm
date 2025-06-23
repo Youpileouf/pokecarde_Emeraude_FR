@@ -10,8 +10,8 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN MY, FASHION, WILL, MAKE, ME, SHINE	
-	Win_EN SHOULD, I, SHINE, SOME, MORE, _QU	
-	Loss_EN YOU, NEED, TO, SHINE, MORE, _EX
+	Win_EN WHY, NOT, SHINE, SOME, MORE, _QU	
+	Loss_EN I, NEED, TO, SHINE, MORE, _EX
 
 	Intro_JP $044a, $1a2a, $ffff, $1228, $102e, $0c00
 	Win_JP $0e36, $044a, $103c, $1606, $0e19, $0c03

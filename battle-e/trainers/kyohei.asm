@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "キョウヘイ"8
 	OT_ID 00000, 00000
 
-	Intro_EN HEAR, ME, ROAR, WROOOAAR_, _EX_EX, $ffff
+	Intro_EN HEAR, MY, GREAT, ROAR, WROOOAAR_, _EX_EX
 	Win_EN WHOAH, _EX, THAT_S, MY, SPIKES, SONG	
 	Loss_EN THIS, IS, _A, SAD, SONG, $ffff
 

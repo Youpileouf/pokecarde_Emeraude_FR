@@ -10,9 +10,9 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN HERE, I, AM, LET_S, GO, _EX
-	Win_EN IT_S, _A, _TOXIC, VICTORY, _EX_EX, $ffff
-	Loss_EN HOW, DID, _TOXIC, LOSE, _ELIP, _QU
-
+	Win_EN IT, IS, _A, VICTORY, _TOXIC, _EX_EX
+	Loss_EN ALTHOUGH, I_AM, USING, _TOXIC, I_AM, TIRED
+	
 	Intro_JP $0812, $102d, $0c00, $1e15, $0c00, $ffff
 	Win_JP $265c, $1034, $0619, $102d, $0c00, $ffff
 	Loss_JP $265c, $0e1f, $0c04, $201c, $102d, $0c04

@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "ウマミ"8
 	OT_ID 00000, 00000
 
-	Intro_EN MY, POKEMON, WON_T, LOSE, TO, YOU	
+	Intro_EN YOU, WILL, NEVER, BEAT, MY, POKEMON
 	Win_EN THAT, BATTLE, WASN_T, GOOD, ENOUGH, _EX	
-	Loss_EN I, SHOULD, NOT, HAVE, LOST, _ELIP_EX
+	Loss_EN I, LOST, AT, MY, LEVEL _ELIP_EX
 
 	Intro_JP $0a48, $020e, $0e28, $0e14, $060a, $1044
 	Win_JP $0c04, $103c, $122d, $0628, $1014, $0c3d

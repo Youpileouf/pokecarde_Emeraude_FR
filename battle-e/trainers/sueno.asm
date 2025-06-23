@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "スエノ"8
 	OT_ID 00000, 00000
 
-	Intro_EN YOU, SHOULD, RUN_AWAY, NOW, _EX, $ffff
+	Intro_EN JUST, THIS, ONCE, _EX, RUN_AWAY, _EX
 	Win_EN I, SAID, YOU, SHOULD, RUN_AWAY, _EX	
 	Loss_EN YOU, DIDN_T, RUN_AWAY, YOU, WON, _ELIP
 

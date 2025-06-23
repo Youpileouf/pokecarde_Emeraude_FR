@@ -13,9 +13,9 @@ INCLUDE "trainers/macros.asm"
 	Win_JP $1c06, $140b, $140f, $0e08, $0609, $0e21
 	Loss_JP $201e, $103e, $ffff, $0e36, $1210, $0c3d
 
-	Intro_EN MY, POKEMON, IS, MY, FRIEND, _EX_EX
-	Win_EN WE, ARE, ALWAYS, TOGETHER, _EX, $ffff
-	Loss_EN WE, WILL, WORK, HARD, _EX_EX, $ffff
+	Intro_EN MY, POKEMON, IS, MY, FRIEND, FOREVER
+	Win_EN WE, WILL, ALWAYS, WIN, TOGETHER, _EX
+	Loss_EN I, WILL, TRY, REALLY, HARD, _EX_EX
 
 	Pokemon LINOONE
 	Holds CHESTO_BERRY
@@ -32,7 +32,7 @@ INCLUDE "trainers/macros.asm"
 
 	Pokemon PELIPPER
 	Holds CHERI_BERRY
-	Moves SURF, FLY, SHOCK_WAVE, AERIAL_ACE
+	Moves SURF, FLY, SHOCK_WAVE, AERIAL_ACE 
 	Level 92
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,6,252,252

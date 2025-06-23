@@ -11,7 +11,7 @@ INCLUDE "trainers/macros.asm"
 
 	Intro_EN THIS, MOVE, IS, ABSOLUTELY, GENIUS, _EX	
 	Win_EN _TOXIC, _EX, PRETTY, GOOD, RIGHT, _QU	
-	Loss_EN I, CAN_T, BEAT, YOU, _ELIP, $ffff
+	Loss_EN EVEN_SO_, I, CAN_T, BEAT, YOU, _ELIP
 
 	Intro_JP $0a05, $020e, $ffff, $1643, $1602, $0c00
 	Win_JP $0a1d, $020e, $ffff, $1409, $1403, $0c00
