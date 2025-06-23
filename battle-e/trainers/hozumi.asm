@@ -13,8 +13,8 @@ INCLUDE "trainers/macros.asm"
 	Win_JP $040b, $2444, $0c05, $1e0d, $1017, $ffff
 	Loss_JP $0e2f, $2444, $0c05, $161a, $164a, $0c04
 
-	Intro_EN LOOK, AT, MY, AWESOME, STRATEGY, _EX_EX
-	Win_EN THAT_S, THE, BEAUTY, OF, THE, _COUNTER, _EX
+	Intro_EN AN, INCREDIBLE, MOVE, _ELIP_EX, HERE_I_COME, _EX_EX
+	Win_EN _A, BEAUTIFUL, _COUNTER, THIS_IS_IT_, $ffff, $ffff
 	Loss_EN MY, _COUNTER, ATTACK, DIDN_T, WORK, _ELIP
 
 	Pokemon VIGOROTH

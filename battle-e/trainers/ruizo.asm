@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "ルイゾウ"8
 	OT_ID 00000, 00000
 
-	Intro_EN YAY, _EX, $ffff, TIME, TO, TRAIN	
+	Intro_EN YAY, _EX, IT_S, TIME, TO, TRAIN	
 	Win_EN YOU, COULDN_T, BEAT, MY, _CRUSH_CLAW, HUH_	
-	Loss_EN AWW, $ffff, $ffff, MY, _CRUSH_CLAW, _ELIP
+	Loss_EN AWW, _EX, NOT, MY, _CRUSH_CLAW, _ELIP
 
 	Intro_JP $2805, $0c00, $ffff, $180f, $1621, $1037
 	Win_JP $0632, $162d, $1022, $2732, $1422, $0c00

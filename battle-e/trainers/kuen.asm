@@ -11,7 +11,7 @@ INCLUDE "trainers/macros.asm"
 
 	Intro_EN LOOK, AT, MY, STRONG, ATTACK, _EX
 	Win_EN _DRAGON_CLAW, DID, _A, PERFECT, HIT, _EX_EX	
-	Loss_EN HUH_, _ELIP, $ffff, MY, _DRAGON_CLAW, $ffff	
+	Loss_EN HUH_, _ELIP, MY, _DRAGON_CLAW, $ffff, $ffff
 
 	Intro_JP $1624, $1034, $063e, $1643, $1007, $0c00
 	Win_JP $142b, $1034, $2751, $0e2a, $1011, $0c00

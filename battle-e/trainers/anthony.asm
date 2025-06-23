@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "アンソニー"8
 	OT_ID 00000, 00000
 
-	Intro_EN MY, NEED, TO, WIN, IS, OVERWHELMING	
-	Win_EN I, MUST_BE, THE, WINNER, _EX, $ffff
-	Loss_EN THIS, FEELING, WON_T, GO, AWAY, _ELIP
+	Intro_EN YOU, ARE, NO_MATCH, FOR, ME, _EX
+	Win_EN I, ALWAYS, WIN, IN, THIS, COLOR
+	Loss_EN _A, DREAM, THAT, WILL, LAST, FOREVER
 
 	Intro_JP $0a43, $1e0b, $0408, $1228, $102b, $100b
 	Win_JP $0a43, $1034, $020e, $1405, $0408, $100b

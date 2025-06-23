@@ -10,8 +10,8 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN FUFUFU, _ELIP_EX, LOOK, AT, MY, MOVE	
-	Win_EN ANY, TYPE, OF, MOVE, WORKS, _EX	
-	Loss_EN HUH_, MY, ATTACK, DIDN_T, WORK, _QU
+	Win_EN I, CAN, USE, ANY, MOVE, TYPE	
+	Loss_EN HUH_, YOU, LOST, _A, MOVE, BATTLE
 
 	Intro_JP $0c13, $0c04, $063e, $140c, $1642, $1602
 	Win_JP $1e21, $0432, $1034, $063e, $0e1f, $0e2a

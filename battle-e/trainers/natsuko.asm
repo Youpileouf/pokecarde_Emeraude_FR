@@ -10,7 +10,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN ALWAYS, DIVE, WITH, GOOD, SPIRIT, _EX	
-	Win_EN YOU, CAN, SEE, A_LOT, OF, POKEMON
+	Win_EN DIVE, _AND, GET, A_LOT, OF, POKEMON
 	Loss_EN IT, WAS, _A, RARE, COLOR, _ELIP
 
 	Intro_JP $2723, $1628, $0e29, $141b, $0e0b, $1225

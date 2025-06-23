@@ -10,8 +10,8 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN LOOK, _EX, ISN_T, IT, CUTE, _QU	
-	Win_EN DON_T, YOU, JUST, ADORE, CUTENESS, _QU	
-	Loss_EN AWW, IT_S, CRIES, ARE, CUTE, _EX
+	Win_EN DON_T, YOU, ADORE, THE, CUTENESS, _QU	
+	Loss_EN WAAAH, MY, CRIES, ARE, CUTE, _EX
 
 	Intro_JP $081c, $1643, $1643, $0e2a, $0418, $1021
 	Win_JP $0c32, $1032, $0c03, $0419, $26d5, $1021

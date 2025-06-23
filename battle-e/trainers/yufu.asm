@@ -13,8 +13,8 @@ INCLUDE "trainers/macros.asm"
 	Win_JP $1e10, $0e0c, $100b, $201e, $103e, $ffff
 	Loss_JP $0c0e, $0c01, $0a46, $0603, $122d, $1239
 
-	Intro_EN HEY, YOU, _EX_EX, GET, READY, _EX_EX
-	Win_EN LOOKS, LIKE, YOU, WEREN_T, READY, _EX
+	Intro_EN COME_ON, _EX, GET, READY, $ffff, $ffff
+	Win_EN YOU, JUST, WEREN_T, READY, ENOUGH, _EX
 	Loss_EN URGH, _EX_EX, SEEMS, I, WASN_T, READY
 
 	Pokemon GARDEVOIR

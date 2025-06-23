@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "フクネ"8
 	OT_ID 00000, 00000
 
-	Intro_EN YOU, WILL, SHAKE, WITH, FEAR, _ELIP_EX	
-	Win_EN CURSE, IS, _A, MYSTERY, _ELIP_EX, $ffff
-	Loss_EN DID, YOU, USE, CURSE, _ELIP, _QU
+	Intro_EN I, AM, SHAKY, WITH, FEAR, _ELIP_EX	
+	Win_EN CURSE, IS, TRULY, _A, MYSTERY, _ELIP_EX
+	Loss_EN MY, POKEMON, HAS, _A, CURSE, _QU_EX
 
 	Intro_JP $1e0f, $1219, $0c04, $201a, $102d, $0c05
 	Win_JP $0e2d, $26ae, $1034, $143a, $102d, $0c05

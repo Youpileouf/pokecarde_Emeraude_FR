@@ -10,7 +10,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN ISN_T, _SLUDGE_BOMB, GREAT, _QU_EX, $ffff, $ffff
-	Win_EN HEHE, _ELIP, $ffff, NEED, _A, BATH, QU
+	Win_EN HEHE, _ELIP, BATH, TIME, _QU, $ffff, $ffff
 	Loss_EN MY, POKEMON, DISLIKE, TO, BATH, _EX
 
 	Intro_JP $26bc, $0e1d, $ffff, $1232, $1017, $ffff

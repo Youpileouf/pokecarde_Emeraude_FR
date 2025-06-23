@@ -9,9 +9,9 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "ノゾム"8
 	OT_ID 00000, 00000
 
-	Intro_EN AREN_T, MY, POKEMON, COOL, _QU, $ffff
-	Win_EN NO, NEED, TO, BE, DISAPPOINTED, _EX	
-	Loss_EN THEY_RE, COOL, BUT, NEED, TO, TRAIN
+	Intro_EN HUH_, AREN_T, MY, POKEMON, INCREDIBLE, _QU
+	Win_EN THERE, IS, NO, NEED, TO, BE, GO_EASY	
+	Loss_EN THEY_RE, STRONG, BUT, I_AM, NOT, SERIOUS
 
 	Intro_JP $2013, $1a15, $1a34, $1c28, $1c0a, $1011
 	Win_JP $1643, $1007, $103e, $0a3a, $020e, $0c00

@@ -14,8 +14,8 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $1028, $280b, $0e1d, $1234, $1e11, $0c03
 
 	Intro_EN I, _LEER, AT, YOU, WITH, KEEN_EYE
-	Win_EN DID, I, INTIMIDATE, YOU, _QU, $ffff
-	Loss_EN SHOW, A_TINY_BIT, OF, SURPRISE, _ELIP, $ffff
+	Win_EN SO, DID, I, INTIMIDATE, YOU, _QU
+	Loss_EN WELL, _QU, WERE, YOU, SHOCKED, _QU
 
 	Pokemon MASQUERAIN
 	Holds QUICK_CLAW

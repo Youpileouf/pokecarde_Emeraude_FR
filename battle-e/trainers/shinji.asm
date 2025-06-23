@@ -11,7 +11,7 @@ INCLUDE "trainers/macros.asm"
 
 	Intro_EN I_AM, QUITE, DIFFERENT, FROM, BEFORE, _EX	
 	Win_EN CAN, YOU, SEE, THE, GROWTH, _QU	
-	Loss_EN HUH_, NOT, DIFFERENT, ENOUGH, _QU, $ffff
+	Loss_EN HUH_, NOT, DIFFERENT, ENOUGH, IT, SEEMS
 
 	Intro_JP $1c12, $1034, $0a3b, $0e07, $1429, $100e
 	Win_JP $1e1b, $244a, $1e11, $1002, $164c, $0c03
