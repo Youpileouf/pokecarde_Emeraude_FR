@@ -10,7 +10,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 
 	Intro_EN WHAT, _A, NICE, _SUNNY_DAY, IT, IS	
-	Win_EN _A, _SUNNY_DAY, FOR, _A, VICTORY, _EX_EX
+	Win_EN _A, _SUNNY_DAY, _FOR, _A, VICTORY, _EX_EX
 	Loss_EN SEEMS, THE, _SUNNY_DAY, WASN_T, SO, NICE
 
 	Intro_JP $141f, $26f1, $0c00, $201f, $26f1, $0c00

@@ -9,7 +9,7 @@ INCLUDE "trainers/macros.asm"
 	Text_JP "アンソニー"8
 	OT_ID 00000, 00000
 
-	Intro_EN YOU, ARE, NO_MATCH, FOR, ME, _EX
+	Intro_EN YOU, ARE, NO_MATCH, _FOR, ME, _EX
 	Win_EN I, ALWAYS, WIN, IN, THIS, COLOR
 	Loss_EN _A, DREAM, THAT, WILL, LAST, FOREVER
 
