@@ -7,9 +7,9 @@ INCLUDE "../constants/natures.asm"
 INCLUDE "../constants/pokemon.asm"
 INCLUDE "../constants/trainerclasses.asm"
 
-MOSSDEEP EQU 0
+DEF MOSSDEEP EQU 0
 
-Battle_Trainer: MACRO
+MACRO Battle_Trainer
 	Section "battle",ROM0[$100]
 	db $01
 	dd $02000000
@@ -19,58 +19,75 @@ Battle_Trainer: MACRO
 	db $02,$00
 	ENDM
 
-BT_Level EQUS "db"
-Class EQUS "db"
-BT_Floor EQUS "dw" ; the byte after it is 00, but apparently means something…
-Intro_EN: MACRO
+MACRO Hill_Trainer
+	REPT 253
+		db $00 ; pads the data to 256 bytes
+	ENDR
+	ENDM
+
+DEF Hill_Num EQUS "dd"
+DEF BT_Level EQUS "db"
+DEF Class EQUS "db"
+DEF BT_Floor EQUS "dw" ; the byte after it is 00, but apparently means something…
+MACRO Intro_EN
 	IF REGION == REGION_EN
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-Win_EN: MACRO
+MACRO Win_EN
 	IF REGION == REGION_EN
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-Loss_EN: MACRO
+MACRO Loss_EN
 	IF REGION == REGION_EN
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-Intro_JP: MACRO
+MACRO After_EN
+	IF REGION == REGION_EN
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+MACRO Intro_JP
 	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-Win_JP: MACRO
+MACRO Win_JP
 	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-Loss_JP: MACRO
+MACRO Loss_JP
 	IF REGION == REGION_JP
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
-Pokemon EQUS "dw"
-Holds EQUS "dw"
-Moves EQUS "dw"
-Level EQUS "db"
-PP_Ups: MACRO
+MACRO After_JP
+	IF REGION == REGION_EN
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+DEF Pokemon EQUS "dw"
+DEF Holds EQUS "dw"
+DEF Moves EQUS "dw"
+DEF Level EQUS "db"
+MACRO PP_Ups
 	db (\1) + (\2 << 2) + (\3 << 4) + (\4 << 6)
 	ENDM
-EVs EQUS "db"
-OT_ID EQUS "dw"
-IVs: MACRO
+DEF EVs EQUS "db"
+DEF OT_ID EQUS "dw"
+MACRO IVs
 	dw \1 + (\2 << 5) + (\3 << 10) + ((\4 & 1) << 15)
 	dw (\4 >> 1) + (\5 << 4) + (\6 << 9) + (\7 << 15)
 	ENDM
-PV: MACRO
+MACRO PV
 	dw (\1 & $FFFF), (\1 >> 16)
 	ENDM
-Friendship EQUS "db"
+DEF Friendship EQUS "db"
 
-End_Trainer: MACRO
+MACRO End_Trainer
 	db 0,0,0,0
 	EOF
 	ENDM
