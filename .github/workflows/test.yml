@@ -1,0 +1,67 @@
+name: Test Python Scripts
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  BuildGift:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify gift 
+        run: |
+          cd giftpokemon && make
+
+  BuildRibbons:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify ribbons
+        run: |
+          cd ribbons && make
+
+  BuildDecoration:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify decoration
+        run: |
+          cd decoration && make
+
+  BuildEonTicket:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify eonticket
+        run: |
+          cd eonticket && make
+
+  BuildBattleE:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify battle-e
+        run: |
+          cd battle-e && make -j4
+
+  Test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Test stripgbc
+        run: |
+          cd tests/scripts/stripgbc/ && ./pass.sh

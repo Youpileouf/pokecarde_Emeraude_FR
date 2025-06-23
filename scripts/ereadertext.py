@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python2.7
 import sys
 from asmquote import asmQuote
 
@@ -7,7 +6,7 @@ region = sys.argv[3]
 
 out = open(sys.argv[2], 'w')
 
-with open(sys.argv[1], 'rb') as f:
+with open(sys.argv[1], 'r') as f:
 	for asm in f:
 		asms = asm.split('"')
 		command = asms[0].strip()
@@ -17,11 +16,11 @@ with open(sys.argv[1], 'rb') as f:
 			asms[1] = asms[1].replace('\\n', '\n')
 			asms[1] = asms[1].replace('é', '\x7F')
 
-			out.write("db " + asmQuote(asms[1]) + "\n")
+			out.write("\tdb " + asmQuote(asms[1]) + "\n")
 		else:
 			out.write(asm)
 			if "macros.asm" in asm:
-				out.write("REGION EQU REGION_{0}\n".format(region))
-				out.write('REGION_NAME EQUS "{0}"\n'.format(region))
+				out.write("DEF REGION EQU REGION_{0}\n".format(region))
+				out.write('DEF REGION_NAME EQUS "{0}"\n'.format(region))
 
 f.closed

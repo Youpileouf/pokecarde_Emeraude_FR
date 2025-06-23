@@ -1,4 +1,3 @@
-#!/usr/bin/env python2.7
 asmProblemBytes = ['\x00', '\x09', '\x0A', '\x22']
 def asmQuote(t):
 	result = ""
@@ -25,4 +24,13 @@ def asmQuote(t):
 		t = t[1:]
 	if quoted:
 		result += '"'
+	return result
+
+def asmQuoteBytes(t):
+	result = ""
+	for b in t:
+		result += '{0}'.format(ord(b)) + ","
+
+	result = result[:-1]
+
 	return result
