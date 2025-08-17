@@ -27,8 +27,8 @@ MACRO Recolte
 	ENDM
 
 DEF Etiquette EQUS "db"
-DEF PREMIERE_LIGNE EQU $FE,$E9,$58,$08 ; FR ROM offset Enigma tag1
-DEF SECONDE_LIGNE $1C,$EA,$58,$08 ; FR ROM offset Enigma tag2
+DEF PREMIERE_LIGNE EQUS "$FE,$E9,$58,$08" ; FR ROM offset Enigma tag1
+DEF SECONDE_LIGNE EQUS "$1C,$EA,$58,$08" ; FR ROM offset Enigma tag2
 
 DEF Croissance_Heures EQUS "db"
 DEF Saveurs EQUS "db"
