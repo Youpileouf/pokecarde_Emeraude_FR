@@ -1,0 +1,12 @@
+build/card-08-K001-FR.o:build/berries/citou-FR.mev
+build/card-08-K002-FR.o:build/berries/dira-FR.mev
+build/card-08-K003-FR.o:build/berries/obergy-FR.mev
+build/card-08-K004-FR.o:build/berries/tipois-FR.mev
+build/card-08-K005-FR.o:build/berries/filys-FR.mev
+build/card-08-K006-FR.o:build/berries/huecac-FR.mev
+build/card-08-K007-FR.o:build/berries/onyon-FR.mev
+build/card-08-K008-FR.o:build/berries/bogom-FR.mev
+build/card-08-K009-FR.o:build/berries/gomar-FR.mev
+build/card-08-K010-FR.o:build/berries/kipick-FR.mev
+build/card-08-K011-FR.o:build/berries/haye-FR.mev
+build/card-08-K012-FR.o:build/berries/patat-FR.mev
