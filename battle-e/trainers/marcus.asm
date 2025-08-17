@@ -1,0 +1,51 @@
+INCLUDE "trainers/macros.asm"		
+		
+	Combat_Dresseur	
+		
+	Niveau_TC	50
+	Classe	EXPERT_M
+	Etage_TC	5
+	Text_FR	"MARCUS"8
+	OT_ID	00000, 00000
+		
+	Intro_FR	MA,STRATEGIE,EST,GENIAL,_ET,INVINCIBLE
+	Victoire_FR	COMMENT,ETAIT,CETTE,CAPACITE,POISON,__QU
+	Defaite_FR	J_ETAIS,__ELIP,SUR,_DE,GAGNER,__ELIP
+		
+	Pokemon	AIRMURE
+	Objet	RESTES
+	Capacites	TOXIK, ABRI, PIQUE, PUIS__CACHEE
+	Niv	50
+	PP_Ups	0, 0, 0, 0
+	EVs	252, 0, 6, 0, 0, 252
+	OT_ID	00000, 00000
+	IVs	31, 14, 15, 15, 14, 30, AIRMURE_REGARD_VIF
+	PV	$00000094
+	Text_FR	"AIRMURE"11
+	Bonheur	255
+		
+	Pokemon	SCARHINO
+	Objet	BAIE_SITRUS
+	Capacites	TOXIK, ABRI, MEGACORNE, TUNNEL
+	Niv	50
+	PP_Ups	0, 0, 0, 0
+	EVs	252, 6, 0, 252, 0, 0
+	OT_ID	00000, 00000
+	IVs	31, 15, 15, 31, 15, 15, SCARHINO_CRAN
+	PV	$0000000D
+	Text_FR	"SCARHINO"11
+	Bonheur	255
+		
+	Pokemon	LAGGRON
+	Objet	GRELOT_COQUE
+	Capacites	TOXIK, ABRI, LASER_GLACE, PLONGEE
+	Niv	50
+	PP_Ups	0, 0, 0, 0
+	EVs	252, 0, 6, 0, 0, 252
+	OT_ID	00000, 00000
+	IVs	31, 15, 15, 15, 15, 15, LAGGRON_TORRENT
+	PV	$0000007F
+	Text_FR	"LAGGRON"11
+	Bonheur	255
+		
+	End_Trainer	
