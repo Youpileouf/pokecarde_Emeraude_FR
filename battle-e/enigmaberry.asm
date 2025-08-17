@@ -15,6 +15,10 @@ BackgroundTilemap:
 	INCBIN "sprites/berrybackdrop.tilemap"
 BackgroundPalette:
 	INCLUDE "sprites/berrybackdrop.pal"
+BerrySprite:
+	INCBIN "sprites/berries/enigma.4bpp"
+BerryPalette:
+	INCLUDE "sprites/berries/enigma.pal"
 
 REPT 72
 	db 0
@@ -33,18 +37,18 @@ BackgroundSpriteData:
 	dw BackgroundSprite, BackgroundPalette, BackgroundTilemap
 	db $05,$00,$01,$00
 BerrySpriteData:
-	dw (DataPacket+$18+$1C),(DataPacket+$18+$49C)
+	dw BerrySprite, BerryPalette
 	db $06,$06,$01,$01,$01,$01,$01
 
 Instructions1: ; B65
-	db "Link e-Reader to Pokémon Ruby or \n"
-	db "Sapphire and select MYSTERY EVENTS\n"
+	db "Link e-Reader to Pokémon Emerald\n"
+	db "and select MYSTERY EVENTS\n"
 	db "on the game's main menu.\n"
 	db "Press the B Button to cancel.\0"
 Instructions2: ; BE1
 	db "Press the A Button on the Game Boy\n"
-	db "Advance containing Pokémon Ruby or\n"
-	db "Sapphire to send a BERRY.\0"
+	db "Advance containing Pokémon Emerald\n"
+	db "to send a BERRY.\0"
 BerrySendingInProcess: ; C41
 	db "BERRY sending in Process...\0"
 ABerryWasSent: ; C5D
