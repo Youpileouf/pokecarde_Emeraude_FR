@@ -10,7 +10,7 @@ INCLUDE "berries/macros.asm"
 	Etiquette SECONDE_LIGNE
 	Croissance_Heures 18
 	Saveurs 0, 0, 40, 0, 0
-	Onctuosité 65
+	Onctuosite 65
 
 	db 0,0,0
 	db $10 ; cures poison
