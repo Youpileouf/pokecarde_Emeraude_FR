@@ -6,8 +6,8 @@ INCLUDE "berries/macros.asm"
 	Firmness SOFT
 	Size 27,2
 	Yield_Range 1, 2
-	db $2C,$A6,$58,$08 ; US ROM offset Enigma tag1
-	db $4A,$A6,$58,$08 ; US ROM offset Enigma tag2
+	BerryTag BERRY_TAG_ONE
+	BerryTag BERRY_TAG_TWO
 	Growth_Stage_Hours 1
 	Flavor 30, 0, 30, 0, 0
 	Smoothness 85
