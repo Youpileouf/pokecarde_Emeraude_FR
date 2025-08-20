@@ -26,7 +26,7 @@ def find_all(a_str, sub):
         yield start
         start += len(sub) # use start += 1 to find overlapping matches
 
-pos=list(find_all(data,b'\x01\x00\x00\x00\x02\x02\x00\x02\x00\x00\x00\x04\x00\x80\x01\x00\x00\x10'))
+pos=list(find_all(data,b'\x01\x00\x00\x00\x02\xFF\x00\xFF\x00\x00\x00\x04\x00\x80\x03\x00\x00\x10'))
 
 for i in pos:
 	i=i+17
@@ -35,7 +35,7 @@ for i in pos:
 		break
 	elif chunk_type == 0x07: # CUSTOM_BERRY
 		start_address = struct.unpack('<I', data[i+1:i+5])[0] - base_address
-		bytewises.append([start_address + 0x52C, start_address, start_address + 0x52C])
+		bytewises.append([start_address + 0x30, start_address, start_address + 0x30])
 	elif chunk_type == 0x0D: # BATTLE_TRAINER
 		start_address = struct.unpack('<I', data[i+1:i+5])[0] - base_address
 		wordwises.append([start_address + 0x13C, start_address, start_address + 0x13C])
