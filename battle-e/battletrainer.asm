@@ -50,9 +50,9 @@ DoorSpriteData: ; 1781
 
 Instructions1: ; 178c
 	db "Connectez le e-Reader a Pokémon\n"
-	db "Emeraude et sélectionnez\n"
-	db "EVENEMENTS MYSTERE dans le menu\n"
-	db "principal. B pour annuler\0"
+	db "Emeraude et lancez EVENEMENTS\n"
+	db "MYSTERE via le livreur a l'étage\n"
+	db "du CENTRE POKéMON. B pour annuler.\0"
 
 Instructions2: ; 1808
 	db "Appuyez sur le bouton A de la Game\n"
