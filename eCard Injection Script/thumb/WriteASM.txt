@@ -1,0 +1,12 @@
+@ Credit to blisy
+    mov     r0, #30		@destination aka Flash memory section 30 (0x1E)
+    ldr     r1, PreloadASMStart @Origine
+    ldr     r2, TryWriteSector	@Ecrit l'origine à la destination
+    bx      r2
+
+.align
+PreloadASMStart:
+    .long   0x0201C054 @ Adresse Emeraude Fr
+TryWriteSector:
+    .long   0x081525D5 @ Adresse Emeraude Fr
+

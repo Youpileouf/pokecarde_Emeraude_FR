@@ -1,0 +1,11 @@
+@ Credit to blisy
+    mov r0, #30			@Origine aka Flash memory section 30 (0x1E)
+    ldr r1, ASMLocation		@Destination
+    ldr r3, ReadFlashSector	@Lit l'origine dans la RAM de destination
+    bx r3
+.align
+ASMLocation:
+    .long 0x0203ABBC @Adresse Emeraude Fr (nous avons pris soin de choisir une zone de la RAM qui n'est pas impactée par l'ASLR) gSaveDataBuffer = 4096 bytes non utilisées (?)
+ReadFlashSector:
+    .long 0x08152E19 @Adresse Emeraude Fr
+
