@@ -1,0 +1,520 @@
+Dans le script écrire à l'envers : Slateport = db $00,$01
+
+Petalburg				      0x0000
+Slateport				      0x0100
+Mauville				      0x0200
+Rustboro				      0x0300
+Fortree					      0x0400
+Lilycove				      0x0500
+Mossdeep				      0x0600
+Sootopolis				      0x0700
+Evergrande				      0x0800
+Littleroot				      0x0900
+Odale					      0x0A00
+Dewford					      0x0B00
+Lavaridge				      0x0C00
+Fallarbor				      0x0D00
+Verdanturf				      0x0E00
+Pacifidlog				      0x0F00
+Route 101				      0x1000
+Route 102				      0x1100
+Route 103				      0x1200
+Route 104				      0x1300
+Chenal 105				      0x1400
+Chenal 106				      0x1500
+Chenal 107				      0x1600
+Chenal 108				      0x1700
+Chenal 109				      0x1800
+Route 110				      0x1900
+Route 111				      0x1A00
+Route 112				      0x1B00
+Route 113				      0x1C00
+Route 114				      0x1D00
+Route 115				      0x1E00
+Route 116				      0x1F00
+Route 117				      0x2000
+Route 118				      0x2100
+Route 119				      0x2200
+Route 120				      0x2300
+Route 121				      0x2400
+Chenal 122				      0x2500
+Route 123				      0x2600
+Chenal 124				      0x2700
+Chenal 125				      0x2800
+Chenal 126				      0x2900
+Chenal 127				      0x2A00
+Chenal 128				      0x2B00
+Chenal 129				      0x2C00
+Chenal 130				      0x2D00
+Chenal 131				      0x2E00
+Chenal 132				      0x2F00
+Chenal 133				      0x3000
+Chenal 134				      0x3100
+Fond marin chenal 124			      0x3200
+Fond marin chenal 126			      0x3300
+Fond marin chenal 127			      0x3400
+Fond marin chenal 128			      0x3500
+Fond marin chenal 129			      0x3600
+Fond marin chenal 105			      0x3700
+Fond marin chenal 125			      0x3800
+Littleroot Town Brendan's House 1F:           0x0001
+Littleroot Town Brendan's House 2F:           0x0101
+Littleroot Town May's House 1F:               0x0201
+Littleroot Town May's House 2F:               0x0301
+Littleroot Town Professor Birch's Lab:        0x0401
+Oldale Town House 1:                          0x0002
+Oldale Town House 2:                          0x0102
+Oldale Town Pokemon Center 1F:                0x0202
+Oldale Town Pokemon Center 2F:                0x0302
+Oldale Town Mart:                             0x0402
+Dewford Town House 1:                         0x0003
+Dewford Town Pokemon Center 1F:               0x0103
+Dewford Town Pokemon Center 2F:               0x0203
+Dewford Town Gym:                             0x0303
+Dewford Town Hall:                            0x0403
+Dewford Town House 2:                         0x0503
+Lavaridge Town Herb Shop:                     0x0004
+Lavaridge Town Gym 1F:                        0x0104
+Lavaridge Town Gym B1F:                       0x0204
+Lavaridge Town House:                         0x0304
+Lavaridge Town Mart:                          0x0404
+Lavaridge Town Pokemon Center 1F:             0x0504
+Lavaridge Town Pokemon Center 2F:             0x0604
+Fallarbor Town Mart:                          0x0005
+Fallarbor Town Battle Tent Lobby:             0x0105
+Fallarbor Town Battle Tent Corridor:          0x0205
+Fallarbor Town Battle Tent BattleRoom:        0x0305
+Fallarbor Town Pokemon Center 1F:             0x0405
+Fallarbor Town Pokemon Center 2F:             0x0505
+Fallarbor Town Cozmo's House:                 0x0605
+Fallarbor Town Move Relearner's House:        0x0705
+Verdanturf Town Battle Tent Lobby:            0x0006
+Verdanturf Town Battle Tent Corridor:         0x0106
+Verdanturf Town Battle Tent BattleRoom:       0x0206
+Verdanturf Town Mart:                         0x0306
+Verdanturf Town Pokemon Center 1F:            0x0406
+Verdanturf Town Pokemon Center 2F:            0x0506
+Verdanturf Town Wanda's House:                0x0606
+Verdanturf Town Friendship Rater's House:     0x0706
+Verdanturf Town House:                        0x0806
+Pacifidlog Town Pokemon Center 1F:            0x0007
+Pacifidlog Town Pokemon Center 2F:            0x0107
+Pacifidlog Town House 1:                      0x0207
+Pacifidlog Town House 2:                      0x0307
+Pacifidlog Town House 3:                      0x0407
+Pacifidlog Town House 4:                      0x0507
+Pacifidlog Town House 5:                      0x0607
+Petalburg City Wally's House:                 0x0008
+Petalburg City Gym:                           0x0108
+Petalburg City House 1:                       0x0208
+Petalburg City House 2:                       0x0308
+Petalburg City Pokemon Center 1F:             0x0408
+Petalburg City Pokemon Center 2F:             0x0508
+Petalburg City Mart:                          0x0608
+Slateport City Stern's Shipyard 1F:           0x0009
+Slateport City Stern's Shipyard 2F:           0x0109
+Slateport City Battle Tent Lobby:             0x0209
+Slateport City Battle Tent Corridor:          0x0309
+Slateport City Battle Tent BattleRoom:        0x0409
+Slateport City Name Rater's House:            0x0509
+Slateport City Pokemon Fan Club:              0x0609
+Slateport City Oceanic Museum 1F:             0x0709
+Slateport City Oceanic Museum 2F:             0x0809
+Slateport City Harbor:                        0x0909
+Slateport City House:                         0x0A09
+Slateport City Pokemon Center 1F:             0x0B09
+Slateport City Pokemon Center 2F:             0x0C09
+Slateport City Mart:                          0x0D09
+Mauville City Gym:                            0x000A
+Mauville City Bike Shop:                      0x010A
+Mauville City House 1:                        0x020A
+Mauville City Game Corner:                    0x030A
+Mauville City House 2:                        0x040A
+Mauville City Pokemon Center 1F:              0x050A
+Mauville City Pokemon Center 2F:              0x060A
+Mauville City Mart:                           0x070A
+Rustboro City Devon Corp 1F:                  0x000B
+Rustboro City Devon Corp 2F:                  0x010B
+Rustboro City Devon Corp 3F:                  0x020B
+Rustboro City Gym:                            0x030B
+Rustboro City Pokemon School:                 0x040B
+Rustboro City Pokemon Center 1F:              0x050B
+Rustboro City Pokemon Center 2F:              0x060B
+Rustboro City Mart:                           0x070B
+Rustboro City Flat 1 1F:                      0x080B
+Rustboro City Flat 1 2F:                      0x090B
+Rustboro City House 1:                        0x0A0B
+Rustboro City Cutter's House:                 0x0B0B
+Rustboro City House 2:                        0x0C0B
+Rustboro City Flat 2 1F:                      0x0D0B
+Rustboro City Flat 2 2F:                      0x0E0B
+Rustboro City Flat 2 3F:                      0x0F0B
+Rustboro City House 3:                        0x100B
+Fortree City House 1:                         0x000C
+Fortree City Gym:                             0x010C
+Fortree City Pokemon Center 1F:               0x020C
+Fortree City Pokemon Center 2F:               0x030C
+Fortree City Mart:                            0x040C
+Fortree City House 2:                         0x050C
+Fortree City House 3:                         0x060C
+Fortree City House 4:                         0x070C
+Fortree City House 5:                         0x080C
+Fortree City Decoration Shop:                 0x090C
+Lilycove City Cove Lily Motel 1F:             0x000D
+Lilycove City Cove Lily Motel 2F:             0x010D
+Lilycove City Lilycove Museum 1F:             0x020D
+Lilycove City Lilycove Museum 2F:             0x030D
+Lilycove City Contest Lobby:                  0x040D
+Lilycove City Contest Hall:                   0x050D
+Lilycove City Pokemon Center 1F:              0x060D
+Lilycove City Pokemon Center 2F:              0x070D
+Lilycove City Unused Mart:                    0x080D
+Lilycove City Pokemon Trainer Fan Club:       0x090D
+Lilycove City Harbor:                         0x0A0D
+Lilycove City Move Deleter's House:           0x0B0D
+Lilycove City House 1:                        0x0C0D
+Lilycove City House 2:                        0x0D0D
+Lilycove City House 3:                        0x0E0D
+Lilycove City House 4:                        0x0F0D
+Lilycove City Department Store 1F:            0x100D
+Lilycove City Department Store 2F:            0x110D
+Lilycove City Department Store 3F:            0x120D
+Lilycove City Department Store 4F:            0x130D
+Lilycove City Department Store 5F:            0x140D
+Lilycove City Department Store Rooftop:       0x150D
+Lilycove City Department Store Elevator:      0x160D
+Mossdeep City Gym:                            0x000E
+Mossdeep City House 1:                        0x010E
+Mossdeep City House 2:                        0x020E
+Mossdeep City Pokemon Center 1F:              0x030E
+Mossdeep City Pokemon Center 2F:              0x040E
+Mossdeep City Mart:                           0x050E
+Mossdeep City House 3:                        0x060E
+Mossdeep City Steven's House:                 0x070E
+Mossdeep City House 4:                        0x080E
+Mossdeep City Space Center 1F:                0x090E
+Mossdeep City Space Center 2F:                0x0A0E
+Mossdeep City Game Corner 1F:                 0x0B0E
+Mossdeep City Game Corner B1F:                0x0C0E
+Sootopolis City Gym 1F:                       0x000F
+Sootopolis City Gym B1F:                      0x010F
+Sootopolis City Pokemon Center 1F:            0x020F
+Sootopolis City Pokemon Center 2F:            0x030F
+Sootopolis City Mart:                         0x040F
+Sootopolis City House 1:                      0x050F
+Sootopolis City House 2:                      0x060F
+Sootopolis City House 3:                      0x070F
+Sootopolis City House 4:                      0x080F
+Sootopolis City House 5:                      0x090F
+Sootopolis City House 6:                      0x0A0F
+Sootopolis City House 7:                      0x0B0F
+Sootopolis City Lotad And Seedot House:       0x0C0F
+Sootopolis City Mystery Events House 1F:      0x0D0F
+Sootopolis City Mystery Events House B1F:     0x0E0F
+Ever Grande City Sidney's Room:               0x0010
+Ever Grande City Phoebe's Room:               0x0110
+Ever Grande City Glacia's Room:               0x0210
+Ever Grande City Drake's Room:                0x0310
+Ever Grande City Champion's Room:             0x0410
+Ever Grande City Hall 1:                      0x0510
+Ever Grande City Hall 1:                      0x0610
+Ever Grande City Hall 1:                      0x0710
+Ever Grande City Hall 1:                      0x0810
+Ever Grande City Hall 1:                      0x0910
+Ever Grande City Pokemon League 1F:           0x0A10
+Ever Grande City Hall Of Fame:                0x0B10
+Ever Grande City Pokemon Center 1F:           0x0C10
+Ever Grande City Pokemon Center 2F:           0x0D10
+Ever Grande City Pokemon League 2F:           0x0E10
+Route 104 Mr Briney's House:                  0x0011
+Route 104 Pretty Petal Flower Shop:           0x0111
+Route 111 Winstrate Family's House:           0x0012
+Route 111 Old Lady's Rest Stop:               0x0112
+Route 112 Cable Car Station:                  0x0013
+Mt Chimney Cable Car Station:                 0x0113
+Route 114 Fossil Maniac's House:              0x0014
+Route 114 Fossil Maniac's Tunnel:             0x0114
+Route 114 Lanette's House:                    0x0214
+Route 116 Tunneler's Rest House:              0x0015
+Route 117 Pokemon Day Care:                   0x0016
+Route 121 Safari Zone Entrance:               0x0017
+Meteor Falls 1F 1R:                           0x0018
+Meteor Falls 1F 2R:                           0x0118
+Meteor Falls B1F 1R:                          0x0218
+Meteor Falls B1F 2R:                          0x0318
+Rusturf Tunnel:                               0x0418
+Underwater Sootopolis City:                   0x0518
+Desert Ruins:                                 0x0618
+Granite Cave 1F:                              0x0718
+Granite Cave B1F:                             0x0818
+Granite Cave B2F:                             0x0918
+Granite Cave Steven's Room:                   0x0A18
+Petalburg Woods:                              0x0B18
+Mt Chimney:                                   0x0C18
+Jagged Pass:                                  0x0D18
+Fiery Path:                                   0x0E18
+Mt Pyre 1F:                                   0x0F18
+Mt Pyre 2F:                                   0x1018
+Mt Pyre 3F:                                   0x1118
+Mt Pyre 4F:                                   0x1218
+Mt Pyre 5F:                                   0x1318
+Mt Pyre 6F:                                   0x1418
+Mt Pyre Exterior:                             0x1518
+Mt Pyre Summit:                               0x1618
+Aqua Hideout 1F:                              0x1718
+Aqua Hideout B1F:                             0x1818
+Aqua Hideout B2F:                             0x1918
+Underwater Seafloor Cavern:                   0x1A18
+Seafloor Cavern Entrance:                     0x1B18
+Seafloor Cavern Room 1:                       0x1C18
+Seafloor Cavern Room 2:                       0x1D18
+Seafloor Cavern Room 3:                       0x1E18
+Seafloor Cavern Room 4:                       0x1F18
+Seafloor Cavern Room 5:                       0x2018
+Seafloor Cavern Room 6:                       0x2118
+Seafloor Cavern Room 7:                       0x2218
+Seafloor Cavern Room 8:                       0x2318
+Seafloor Cavern Room 9:                       0x2418
+Cave Of Origin Entrance:                      0x2518
+Cave Of Origin 1F:                            0x2618
+Cave Of Origin Unused Ruby Sapphire Map 1:    0x2718
+Cave Of Origin Unused Ruby Sapphire Map 2:    0x2818
+Cave Of Origin Unused Ruby Sapphire Map 3:    0x2918
+Cave Of Origin B1F:                           0x2A18
+Victory Road 1F:                              0x2B18
+Victory Road B1F:                             0x2C18
+Victory Road B2F:                             0x2D18
+Shoal Cave Low Tide Entrance Room:            0x2E18
+Shoal Cave Low Tide Inner Room:               0x2F18
+Shoal Cave Low Tide Stairs Room:              0x3018
+Shoal Cave Low Tide Lower Room:               0x3118
+Shoal Cave High Tide Entrance Room:           0x3218
+Shoal Cave High Tide Inner Room:              0x3318
+New Mauville Entrance:                        0x3418
+New Mauville Inside:                          0x3518
+Abandoned Ship Deck:                          0x3618
+Abandoned Ship Corridors 1F:                  0x3718
+Abandoned Ship Corridors B1F:                 0x3818
+Abandoned Ship Rooms 1F:                      0x3918
+Abandoned Ship Rooms B1F:                     0x3A18
+Abandoned Ship Rooms 2 B1F:                   0x3B18
+Abandoned Ship Underwater 1:                  0x3C18
+Abandoned Ship Room B1F:                      0x3D18
+Abandoned Ship Rooms 2F:                      0x3E18
+Abandoned Ship Captain's Office:              0x3F18
+Abandoned Ship Underwater 2:                  0x4018
+Abandoned Ship Hidden Floor Corridors:        0x4118
+Abandoned Ship Hidden Floor Rooms:            0x4218
+Island Cave:                                  0x4318
+Ancient Tomb:                                 0x4418
+Underwater Route 134:                         0x4518
+Underwater Sealed Chamber:                    0x4618
+Sealed Chamber Outer Room:                    0x4718
+Sealed Chamber Inner Room:                    0x4818
+Scorched Slab:                                0x4918
+Aqua Hideout Unused Ruby Map 1:               0x4A18
+Aqua Hideout Unused Ruby Map 2:               0x4B18
+Aqua Hideout Unused Ruby Map 3:               0x4C18
+Sky Pillar Entrance:                          0x4D18
+Sky Pillar Outside:                           0x4E18
+Sky Pillar 1F:                                0x4F18
+Sky Pillar 2F:                                0x5018
+Sky Pillar 3F:                                0x5118
+Sky Pillar 4F:                                0x5218
+Shoal Cave Low Tide Ice Room:                 0x5318
+Sky Pillar 5F:                                0x5418
+Sky Pillar Top:                               0x5518
+Magma Hideout 1F:                             0x5618
+Magma Hideout 2F 1R:                          0x5718
+Magma Hideout 2F 2R:                          0x5818
+Magma Hideout 3F 1R:                          0x5918
+Magma Hideout 3F 2R:                          0x5A18
+Magma Hideout 4F:                             0x5B18
+Magma Hideout 3F 3R:                          0x5C18
+Magma Hideout 2F 3R:                          0x5D18
+Mirage Tower 1F:                              0x5E18
+Mirage Tower 2F:                              0x5F18
+Mirage Tower 3F:                              0x6018
+Mirage Tower 4F:                              0x6118
+Desert Underpass:                             0x6218
+Artisan Cave B1F:                             0x6318
+Artisan Cave 1F:                              0x6418
+Underwater Marine Cave:                       0x6518
+Marine Cave Entrance:                         0x6618
+Marine Cave End:                              0x6718
+Terra Cave Entrance:                          0x6818
+Terra Cave End:                               0x6918
+Altering Cave:                                0x6A18
+Meteor Falls Steven's Cave:                   0x6B18
+Secret Base Red Cave 1:                       0x0019
+Secret Base Brown Cave 1:                     0x0119
+Secret Base Blue Cave 1:                      0x0219
+Secret Base Yellow Cave 1:                    0x0319
+Secret Base Tree 1:                           0x0419
+Secret Base Shrub 1:                          0x0519
+Secret Base Red Cave 2:                       0x0619
+Secret Base Brown Cave 2:                     0x0719
+Secret Base Blue Cave 2:                      0x0819
+Secret Base Yellow Cave 2:                    0x0919
+Secret Base Tree 2:                           0x0A19
+Secret Base Shrub 2:                          0x0B19
+Secret Base Red Cave 3:                       0x0C19
+Secret Base Brown Cave 3:                     0x0D19
+Secret Base Blue Cave 3:                      0x0E19
+Secret Base Yellow Cave 3:                    0x0F19
+Secret Base Tree 3:                           0x1019
+Secret Base Shrub 3:                          0x1119
+Secret Base Red Cave 4:                       0x1219
+Secret Base Brown Cave 4:                     0x1319
+Secret Base Blue Cave 4:                      0x1419
+Secret Base Yellow Cave 4:                    0x1519
+Secret Base Tree 4:                           0x1619
+Secret Base Shrub 4:                          0x1719
+Battle Colosseum 2P:                          0x1819
+Trade Center:                                 0x1919
+Record Corner:                                0x1A19
+Battle Colosseum 4P:                          0x1B19
+Contest Hall:                                 0x1C19
+Unused Contest Hall 1:                        0x1D19
+Unused Contest Hall 2:                        0x1E19
+Unused Contest Hall 3:                        0x1F19
+Unused Contest Hall 4:                        0x2019
+Unused Contest Hall 5:                        0x2119
+Unused Contest Hall 6:                        0x2219
+Contest Hall Beauty:                          0x2319
+Contest Hall Tough:                           0x2419
+Contest Hall Cool:                            0x2519
+Contest Hall Smart:                           0x2619
+Contest Hall Cute:                            0x2719
+Inside Of Truck:                              0x2819
+SS Tidal Corridor:                            0x2919
+SS Tidal Lower Deck:                          0x2A19
+SS Tidal Rooms:                               0x2B19
+Battle Pyramid Square 01:                     0x2C19
+Battle Pyramid Square 02:                     0x2D19
+Battle Pyramid Square 03:                     0x2E19
+Battle Pyramid Square 04:                     0x2F19
+Battle Pyramid Square 05:                     0x3019
+Battle Pyramid Square 06:                     0x3119
+Battle Pyramid Square 07:                     0x3219
+Battle Pyramid Square 08:                     0x3319
+Battle Pyramid Square 09:                     0x3419
+Battle Pyramid Square 10:                     0x3519
+Battle Pyramid Square 11:                     0x3619
+Battle Pyramid Square 12:                     0x3719
+Battle Pyramid Square 13:                     0x3819
+Battle Pyramid Square 14:                     0x3919
+Battle Pyramid Square 15:                     0x3A19
+Battle Pyramid Square 16:                     0x3B19
+Union Room:                                   0x3C19
+Safari Zone Northwest:                        0x001A
+Safari Zone North:                            0x011A
+Safari Zone Southwest:                        0x021A
+Safari Zone South:                            0x031A
+Battle Frontier Outside West:                 0x041A
+Battle Frontier Battle Tower Lobby:           0x051A
+Battle Frontier Battle Tower Elevator:        0x061A
+Battle Frontier Battle Tower Corridor:        0x071A
+Battle Frontier Battle Tower Battle Room:     0x081A
+Southern Island Exterior:                     0x091A
+Southern Island Interior:                     0x0A1A
+Safari Zone Rest House:                       0x0B1A
+Safari Zone Northeast:                        0x0C1A
+Safari Zone Southeast:                        0x0D1A
+Battle Frontier Outside East:                 0x0E1A
+Battle Frontier Battle Tower Multi Partner Room: 0x0F1A
+Battle Frontier Battle Tower Multi Corridor:  0x101A
+Battle Frontier Battle Tower Multi Battle Room: 0x111A
+Battle Frontier Battle Dome Lobby:            0x121A
+Battle Frontier Battle Dome Corridor:         0x131A
+Battle Frontier Battle Dome Pre Battle Room:  0x141A
+Battle Frontier Battle Dome Battle Room:      0x151A
+Battle Frontier Battle Palace Lobby:          0x161A
+Battle Frontier Battle Palace Corridor:       0x171A
+Battle Frontier Battle Palace Battle Room:    0x181A
+Battle Frontier Battle Pyramid Lobby:         0x191A
+Battle Frontier Battle Pyramid Floor:         0x1A1A
+Battle Frontier Battle Pyramid Top:           0x1B1A
+Battle Frontier Battle Arena Lobby:           0x1C1A
+Battle Frontier Battle Arena Corridor:        0x1D1A
+Battle Frontier Battle Arena Battle Room:     0x1E1A
+Battle Frontier Battle Factory Lobby:         0x1F1A
+Battle Frontier Battle Factory Pre Battle Room: 0x201A
+Battle Frontier Battle Factory Battle Room:   0x211A
+Battle Frontier Battle Pike Lobby:            0x221A
+Battle Frontier Battle Pike Corridor:         0x231A
+Battle Frontier Battle Pike Three Path Room   0x241A
+Battle Frontier Battle Pike Room Normal:      0x251A
+Battle Frontier Battle Pike Room Final:       0x261A
+Battle Frontier Battle Pike Room Wild Mons:   0x271A
+Battle Frontier Ranking Hall:                 0x281A
+Battle Frontier Lounge 1:                     0x291A
+Battle Frontier Exchange Service Corner:      0x2A1A
+Battle Frontier Lounge 2:                     0x2B1A
+Battle Frontier Lounge 3:                     0x2C1A
+Battle Frontier Lounge 4:                     0x2D1A
+Battle Frontier Scott's House:                0x2E1A
+Battle Frontier Lounge 5:                     0x2F1A
+Battle Frontier Lounge 6:                     0x301A
+Battle Frontier Lounge 7:                     0x311A
+Battle Frontier Reception Gate:               0x321A
+Battle Frontier Lounge 8:                     0x331A
+Battle Frontier Lounge 9:                     0x341A
+Battle Frontier Pokemon Center 1F:            0x351A
+Battle Frontier Pokemon Center 2F:            0x361A
+Battle Frontier Mart:                         0x371A
+Faraway Island Entrance:                      0x381A
+Faraway Island Interior:                      0x391A
+Birth Island Exterior:                        0x3A1A
+Birth Island Harbor:                          0x3B1A
+Trainer Hill Entrance:                        0x3C1A
+Trainer Hill 1F:                              0x3D1A
+Trainer Hill 2F:                              0x3E1A
+Trainer Hill 3F:                              0x3F1A
+Trainer Hill 4F:                              0x401A
+Trainer Hill Roof:                            0x411A
+Navel Rock Exterior:                          0x421A
+Navel Rock Harbor:                            0x431A
+Navel Rock Entrance:                          0x441A
+Navel Rock B1F:                      	      0x451A
+Navel Rock Fork:                              0x461A
+Navel Rock Up 1:                              0x471A
+Navel Rock Up 2:                              0x481A
+Navel Rock Up 3:                              0x491A
+Navel Rock Up 4:                              0x4A1A
+Navel Rock Top:                               0x4B1A
+Navel Rock Down 01:                           0x4C1A
+Navel Rock Down 02:                           0x4D1A
+Navel Rock Down 03:                           0x4E1A
+Navel Rock Down 04:                           0x4F1A
+Navel Rock Down 05:                           0x501A
+Navel Rock Down 06:                           0x511A
+Navel Rock Down 07:                           0x521A
+Navel Rock Down 08:                           0x531A
+Navel Rock Down 09:                           0x541A
+Navel Rock Down 10:                           0x551A
+Navel Rock Down 11:                           0x561A
+Navel Rock Bottom:                            0x571A
+Trainer Hill Elevator:                        0x581A
+Route 104 Prototype:                          0x001B
+Route 104 Prototype Pretty Petal Flower Shop: 0x011B
+Route 109 Seashore House:                     0x001C
+Route 110 Trick House Entrance:               0x001D
+Route 110 Trick House End:                    0x011D
+Route 110 Trick House Corridor:               0x021D
+Route 110 Trick House Puzzle 1:               0x031D
+Route 110 Trick House Puzzle 2:               0x041D
+Route 110 Trick House Puzzle 3:               0x051D
+Route 110 Trick House Puzzle 4:               0x061D
+Route 110 Trick House Puzzle 5:               0x071D
+Route 110 Trick House Puzzle 6:               0x081D
+Route 110 Trick House Puzzle 7:               0x091D
+Route 110 Trick House Puzzle 8:               0x0A1D
+Route 110 Seaside Cycling Road North Entrance: 0x0B1D
+Route 110 Seaside Cycling Road South Entrance: 0x0C1D
+Route 113 Glass Workshop:                     0x001E
+Route 123 Berry Master's House:               0x001F
+Route 119 Weather Institute 1F:               0x0020
+Route 119 Weather Institute 2F:               0x0120
+Route 119 House:                              0x0220
+Route 124 Diving Treasure Hunter's House:     0x0021
