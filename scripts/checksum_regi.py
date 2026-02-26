@@ -26,7 +26,7 @@ def find_all(a_str, sub):
         yield start
         start += len(sub) # use start += 1 to find overlapping matches
 
-pos=list(find_all(data,b'\x01\x00\x00\x00\x02\x02\x00\x02\x00\x00\x00\x04\x00\x80\x01\x00\x00\x10'))
+pos=list(find_all(data,b'\x01\x00\x00\x00\x02\xFF\x00\xFF\x00\x00\x00\x04\x00\x80\x03\x00\x00\x10'))
 
 for i in pos:
 	i=i+17
