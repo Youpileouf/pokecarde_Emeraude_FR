@@ -24,10 +24,10 @@ include berry_cards.mk
 build/prologue-%.tx: prologue.asm
 	python3 ../scripts/regionalize.py $< $@ $* $*
 
-ARCH = $(uname -m)
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m)) 
 ifeq ($(ARCH),aarch64)
 build/prologue-%.o: build/prologue-%.tx
-	echo "$ARCH"
+	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
 build/prologue-%.gbc: build/prologue-%.o
 	../bin/rgbds/arm/rgblink -o $@ $<
 else
@@ -57,7 +57,7 @@ build/enigmaberry-%.tx: enigmaberry.asm build/prologue-%.bin
 build/berries/%-FR.tx: berries/%.asm
 	python3 ../scripts/regionalize.py $< $@ FR FR
 
-ARCH = $(uname -m)
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
 ifeq ($(ARCH),aarch64)
 build/berries/%.o: build/berries/%.tx
 	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
@@ -80,7 +80,7 @@ build/berries/%.mev: build/berries/%.bin
 build/trainers/%-FR.tx: trainers/%.asm
 	python3 ../scripts/regionalize.py $< $@ FR FR
 
-ARCH = $(uname -m)
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
 ifeq ($(ARCH),aarch64)
 build/trainers/%.o: build/trainers/%.tx
 	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
@@ -103,7 +103,7 @@ build/trainers/%.mev: build/trainers/%.bin
 build/card-%-FR.tx: card-%.asm
 	python3 ../scripts/ereadertext.py $< $@ FR
 
-ARCH = $(uname -m)
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
 ifeq ($(ARCH),aarch64)
 build/card-%.o: build/card-%.tx build/prologue-FR.tx build/battletrainer-FR.tx build/enigmaberry-FR.tx
 	../bin/rgbds/arm/rgbasm -I build -M $@.d -o $@ $<
