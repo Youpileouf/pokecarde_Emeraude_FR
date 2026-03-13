@@ -27,7 +27,7 @@ build/prologue-%.tx: prologue.asm
 ARCH = $(uname -m)
 ifeq ($(ARCH),aarch64)
 build/prologue-%.o: build/prologue-%.tx
-	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
+	echo "$ARCH"
 build/prologue-%.gbc: build/prologue-%.o
 	../bin/rgbds/arm/rgblink -o $@ $<
 else
