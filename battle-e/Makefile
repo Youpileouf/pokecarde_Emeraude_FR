@@ -23,10 +23,23 @@ include berry_cards.mk
 
 build/prologue-%.tx: prologue.asm
 	python3 ../scripts/regionalize.py $< $@ $* $*
+
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
+ifeq ($(ARCH),aarch64)
 build/prologue-%.o: build/prologue-%.tx
+	chmod +x ../bin/rgbds/arm/rgbasm 
+	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
+build/prologue-%.gbc: build/prologue-%.o
+	chmod +x ../bin/rgbds/arm/rgblink 
+	../bin/rgbds/arm/rgblink -o $@ $<
+else
+build/prologue-%.o: build/prologue-%.tx
+	chmod +x ../bin/rgbds/v0.9.1/rgbasm 
 	../bin/rgbds/v0.9.1/rgbasm -M $@.d -o $@ $<
 build/prologue-%.gbc: build/prologue-%.o
+	chmod +x ../bin/rgbds/v0.9.1/rgblink 
 	../bin/rgbds/v0.9.1/rgblink -o $@ $<
+endif
 build/prologue-%.bin: build/prologue-%.gbc
 	python3 ../scripts/stripgbc.py $< $@
 
@@ -47,10 +60,23 @@ build/enigmaberry-%.tx: enigmaberry.asm build/prologue-%.bin
 
 build/berries/%-FR.tx: berries/%.asm
 	python3 ../scripts/regionalize.py $< $@ FR FR
+
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
+ifeq ($(ARCH),aarch64)
 build/berries/%.o: build/berries/%.tx
+	chmod +x ../bin/rgbds/arm/rgbasm 
+	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
+build/berries/%.gbc: build/berries/%.o
+	chmod +x ../bin/rgbds/arm/rgblink 
+	../bin/rgbds/arm/rgblink -o $@ $<
+else
+build/berries/%.o: build/berries/%.tx
+	chmod +x ../bin/rgbds/v0.9.1/rgbasm 
 	../bin/rgbds/v0.9.1/rgbasm -M $@.d -o $@ $<
 build/berries/%.gbc: build/berries/%.o
+	chmod +x ../bin/rgbds/v0.9.1/rgblink
 	../bin/rgbds/v0.9.1/rgblink -o $@ $<
+endif
 build/berries/%.bin: build/berries/%.gbc
 	python3 ../scripts/stripgbc.py $< $@
 build/berries/%.mev: build/berries/%.bin
@@ -61,10 +87,24 @@ build/berries/%.mev: build/berries/%.bin
 
 build/trainers/%-FR.tx: trainers/%.asm
 	python3 ../scripts/regionalize.py $< $@ FR FR
+
+
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
+ifeq ($(ARCH),aarch64)
 build/trainers/%.o: build/trainers/%.tx
+	chmod +x ../bin/rgbds/arm/rgbasm 
+	../bin/rgbds/arm/rgbasm -M $@.d -o $@ $<
+build/trainers/%.gbc: build/trainers/%.o
+	chmod +x ../bin/rgbds/arm/rgblink 
+	../bin/rgbds/arm/rgblink -o $@ $<
+else
+build/trainers/%.o: build/trainers/%.tx
+	chmod +x ../bin/rgbds/v0.9.1/rgbasm
 	../bin/rgbds/v0.9.1/rgbasm -M $@.d -o $@ $<
 build/trainers/%.gbc: build/trainers/%.o
+	chmod +x ../bin/rgbds/v0.9.1/rgblink 
 	../bin/rgbds/v0.9.1/rgblink -o $@ $<
+endif
 build/trainers/%.bin: build/trainers/%.gbc
 	python3 ../scripts/stripgbc.py $< $@
 build/trainers/%.mev: build/trainers/%.bin
@@ -75,18 +115,46 @@ build/trainers/%.mev: build/trainers/%.bin
 
 build/card-%-FR.tx: card-%.asm
 	python3 ../scripts/ereadertext.py $< $@ FR
+
+
+ARCH := $(if $(ARCH),$(ARCH),$(shell uname -m))
+ifeq ($(ARCH),aarch64)
 build/card-%.o: build/card-%.tx build/prologue-FR.tx build/battletrainer-FR.tx build/enigmaberry-FR.tx
+	chmod +x ../bin/rgbds/arm/rgbasm 
+	../bin/rgbds/arm/rgbasm -I build -M $@.d -o $@ $<
+build/card-%.gbc: build/card-%.o
+	chmod +x ../bin/rgbds/arm/rgblink 
+	../bin/rgbds/arm/rgblink -o $@ $<
+build/card-%.z80: build/card-%.gbc
+	python3 ../scripts/stripgbc.py $< $@
+build/card-%.vpk: build/card-%.z80
+	chmod +x ../bin/nedc/arm/nevpk 
+	LD_LIBRARY_PATH=../bin/nedc/arm/libnedclib.so ../bin/nedc/arm/nevpk -c -i $< -o $@
+build/card-%-01.raw: build/card-%.vpk
+	chmod +x ../bin/nedc/arm/nedcmake 
+	LD_LIBRARY_PATH=../bin/nedc/arm/libnedclib.so ../bin/nedc/arm/nedcmake -i $< -o $(subst -01.raw,,$@) -type 1 -region 1
+build/card-%.300.bmp: build/card-%-01.raw
+	chmod +x ../bin/nedc/arm/raw2bmp
+	LD_LIBRARY_PATH=../bin/nedc/arm/libnedclib.so  ../bin/nedc/arm/raw2bmp -i $< -o $(subst .bmp,,$@) -dpi 300
+else
+build/card-%.o: build/card-%.tx build/prologue-FR.tx build/battletrainer-FR.tx build/enigmaberry-FR.tx
+	chmod +x ../bin/rgbds/v0.9.1/rgbasm 
 	../bin/rgbds/v0.9.1/rgbasm -I build -M $@.d -o $@ $<
 build/card-%.gbc: build/card-%.o
+	chmod +x ../bin/rgbds/v0.9.1/rgblink 
 	../bin/rgbds/v0.9.1/rgblink -o $@ $<
 build/card-%.z80: build/card-%.gbc
 	python3 ../scripts/stripgbc.py $< $@
 build/card-%.vpk: build/card-%.z80
+	chmod +x ../bin/nedc/v1.4/nevpk 
 	../bin/nedc/v1.4/nevpk -c -i $< -o $@
 build/card-%-01.raw: build/card-%.vpk
+	chmod +x ../bin/nedc/v1.4/nedcmake 
 	../bin/nedc/v1.4/nedcmake -i $< -o $(subst -01.raw,,$@) -type 1 -region 1
 build/card-%.300.bmp: build/card-%-01.raw
+	chmod +x ../bin/nedc/v1.4.1/raw2bmp 
 	../bin/nedc/v1.4.1/raw2bmp -i $< -o $(subst .bmp,,$@) -dpi 300
+endif
 
 .PRECIOUS: build/card-%-01.raw 
 .PHONY: build/card-%-FR.tx build/card-%.o build/card-%.gbc build/card-%.z80 build/card-%.vpk build/card-%.300.bmp
